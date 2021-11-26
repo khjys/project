@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+.PC{ display:none !important}
+.PHONE{ display:block !important}
+
+@media screen and (max-width:1143px){
+#header .gnb_wrap{ display:none}
+#quick{ display:none}
+}
+
+@media screen and (max-width:1024px){
+body{ font-size:13px}
+.box2{ max-width:98%}
+.doc .box1{ max-width:98%}
+#header .gnb_wrap{ display:none}
+#quick{ display:none}
+
+#contents .sub_visual_wrap .va_wrap{ height:17.5em}
+#contents .sub_visual_wrap .slogan .tit{ font-size:1.570em}
+#contents .sub_visual_wrap .sub_gnb_wrap{ bottom:2.8em}
+#contents .sub_visual_wrap .sub_gnb_wrap .gnb > li .dp2 > li{ max-width:100% !important}
+#contents .sub_visual_wrap .sub_gnb_wrap .gnb > li .dp2 > li > a{ height:2.5em}
+#contents .sub_visual_wrap .sub_gnb_wrap .gnb > li .dp2 > li > a .va{ font-size:.875em}
+#contents .sub_tab_wrap .gnb .dp3 > li > a{ font-size:.938em; padding:0 10px}
+#contents .sub_tab_wrap{ margin-bottom:1.5em}
+#contents .sub_tab_wrap .gnb .va_wrap{ height:50px}
+
+#contents .doc.st1{ margin-top:-1.5em}
+
+.main_con.main_sec2 .tab_wrap .tab_ul > li{ width:50%}
+.main_con.main_sec2 .tab_wrap .tab_ul > li > a{ font-size:.875em; padding:0}
+
+/*SUBPAGE*/
+.greetings_wrap .left{ width:100%}
+.greetings_wrap .t1{ width:100%}
+.greetings_wrap .right{ width:40%}
+
+#header .all_wrap .gnb > li .dp1{ font-size:.875em}
+#header .all_wrap .gnb > li .dp2 > li > a{ font-size:.875em}
+}
+
+@media screen and (min-width:768px) and (max-width:930px){
+body{ font-size:13px}
+.box2{ max-width:98%}
+.doc .box1{ max-width:98%}
+#header .gnb_wrap{ display:none}
+#quick{ display:none}
+
+/**/
+.mainVisual_wrap .slick-track{ height:400px}
+.mainVisual_wrap .slogan_wrap{ padding-top:8em}
+.mainVisual_wrap .slogan{ padding:50px; margin-left:1.5em}
+.mainVisual_wrap .slogan .t1{ font-size:1.570em; padding-bottom:10px}
+.mainVisual_wrap .slogan .t2{ font-size:1em}
+.load .mainVisual_wrap .slogan .line.line4{ width:40%}
+.load .mainVisual_wrap .slogan .line.line2{ width:20%}
+.mainVisual_wrap .slogan .line.line5{ left:40%}
+.mainVisual_wrap .slogan .line.line2{ right:80%}
+.mainVisual_wrap .slogan .line.line1{ left:20%}
+.mainVisual_wrap .slick-dots{ left:1.5em}
+
+
+#contents .sub_visual_wrap .va_wrap{ height:17.5em}
+#contents .sub_visual_wrap .slogan .tit{ font-size:1.570em}
+#contents .sub_visual_wrap .sub_gnb_wrap{ bottom:2.8em}
+#contents .sub_visual_wrap .sub_gnb_wrap .gnb > li .dp2 > li{ max-width:100% !important}
+#contents .sub_visual_wrap .sub_gnb_wrap .gnb > li .dp2 > li > a{ height:2.5em}
+#contents .sub_visual_wrap .sub_gnb_wrap .gnb > li .dp2 > li > a .va{ font-size:.875em}
+#contents .sub_tab_wrap .gnb .dp3 > li > a{ font-size:.938em; padding:0 10px}
+#contents .sub_tab_wrap{ margin-bottom:1.5em}
+#contents .sub_tab_wrap .gnb .va_wrap{ height:50px}
+
+#contents .doc.st1{ margin-top:-1.5em}
+
+.main_con.main_sec2 .tab_wrap .tab_ul > li{ width:50%}
+.main_con.main_sec2 .tab_wrap .tab_ul > li > a{ font-size:.875em; padding:0}
+
+.program_step .txt .t1{ font-size:.875em}
+.program_step .txt{ padding:0 .3em}
+.main_con.main_sec3 .cont > ul{ margin:0 0 0 -10px}
+.main_con.main_sec3 .cont > ul > li > div{ margin:0 0 0 10px}
+.main_con.main_sec3 .cont > ul > li .icon > img{ width:80%;}
+.main_con.main_sec3 .cont > ul > li .icon{ right:0}
+
+.main_con.main_sec4 .cont > ul{ margin:0 0 0 -10px}
+.main_con.main_sec4 .cont > ul > li > div{ margin: 0 0 0 10px}
+.main_con.main_sec4 .cont > ul > li .down_area .down_list .list_in .tt{ text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:70%}
+.main_con.main_sec4 .cont > ul > li .down_area .down_list .list_in .xi{ padding-left:0}
+.main_con.main_sec4 .cont > ul > li .txtbox2{ padding:1em}
+.main_con.main_sec4 .cont > ul > li .tel_area{ height:auto !important}
+.main_con.main_sec4 .cont > ul > li .notice_list, 
+.main_con.main_sec4 .cont > ul > li .down_area .down_list{ padding:0 15px 15px 15px}
+
+.main_con.main_sec4 .cont > ul > li .notice_list .tt{ text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:60%}
+.main_con.main_sec4 .cont > ul > li .down_area .down_list .list_in .tt{ text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:70%}
+.main_con.main_sec4 .cont > ul > li .down_area .down_list .list_in .xi{ padding-left:0}
+.main_con.main_sec4 .cont > ul > li .txtbox2{ padding:1em}
+
+#footer .menu_wrap .gnb_wrap .gnb > li .dp1{ padding:.5em; font-size:.938em}
+#footer .menu_wrap .gnb_wrap .gnb > li .dp2 > li > a{ padding:.5em}
+
+/*SUBPAGE*/
+.greetings_wrap .left{ width:100%}
+.greetings_wrap .t1{ width:100%}
+.greetings_wrap .right{ width:40%}
+
+
+.pro_wrap .pro_list3 .list01 > dt{ width:100%; font-size:1em; padding:1em 1em 0 1em}
+.pro_wrap .pro_list3 .list01 > dd{ width:100%; padding:1em}
+.pro_wrap .pro_list3 .list01 > dd > ul > li{ padding-right:2em}
+
+.project2_wrap .con{ padding:1.5em}
+.project2_wrap .con .img_wrap .bg1,
+.project2_wrap .con .img_wrap .bg2,
+.project2_wrap .con .img_wrap .bg3,
+.project2_wrap .con .img_wrap .bg4,
+.project2_wrap .con .img_wrap .bg5,
+.project2_wrap .con .img_wrap .bg6,
+.project2_wrap .con .img_wrap .bg7,
+.project2_wrap .con .img_wrap .bg8{ width:90%}
+}
+
+
+@media screen and (max-width:765px){
+body{ font-size:12px}
+.doc .box1{ max-width:94%}
+.box2{ max-width:92%}
+#header .gnb_wrap{ display:none}
+#header .logo{}
+#header .va_wrap{ height:4em}
+#header .etc_wrap .etcBtn{ display:none}
+#header .all_wrap .allBtn{ width:auto}
+
+/**/
+.mainVisual_wrap .slick-track{ height:400px}
+.mainVisual_wrap .slogan_wrap{ padding-top:8em}
+.mainVisual_wrap .slogan{ padding:30px; margin-left:1.5em}
+.mainVisual_wrap .slogan .t1{ font-size:1.570em; padding-bottom:10px}
+.mainVisual_wrap .slogan .t2{ font-size:1em}
+.load .mainVisual_wrap .slogan .line.line4{ width:40%}
+.load .mainVisual_wrap .slogan .line.line2{ width:20%}
+.mainVisual_wrap .slogan .line.line5{ left:40%}
+.mainVisual_wrap .slogan .line.line2{ right:80%}
+.mainVisual_wrap .slogan .line.line1{ left:20%}
+
+.mainVisual_wrap .slick-dots{ left:1.5em}
+.mainVisual_wrap .slick-dots > ul > li button{ width:10px; height:10px}
+
+.main_tit{ font-size:1.570em; padding-bottom:20px}
+.main_tit.st2{ font-size:1.375em; padding-bottom:20px}
+
+.main_business_wrap .list .resize{ padding-bottom:100.666%}
+.main_business_wrap .list{ margin-left:0}
+.main_business_wrap .list > li{ width:50%}
+.main_business_wrap .list > li .in{ margin-left:0; margin-bottom:0}
+.main_business_wrap .list .tt{ font-size:1.125em}
+.main_business_wrap .list .on{ height:100%}
+.main_business_wrap .list .on .t1{ padding-bottom:5px}
+.main_business_wrap .list .on .btn{ padding-top:1em}
+.main_business_wrap .list .on .t1{ font-size:1.125em}
+
+.main_con.main_sec2 .tab_wrap .tab_ul > li{ width:50%}
+.main_con.main_sec2 .tab_wrap .tab_ul > li > a{ font-size:.875em; padding:0}
+.main_con.main_sec2 .tab_wrap .tab_ul > li > a:after{ height:3px}
+
+.main_con.main_sec4 .cont > ul{ margin:0 0 0 -10px}
+.main_con.main_sec4 .cont > ul > li{ width:100%; margin-bottom:10px}
+.main_con.main_sec4 .cont > ul > li:last-child{ width:100% !important; margin-top:10px}
+.main_con.main_sec4 .cont > ul > li .tel_area{ height:auto !important}
+.main_con.main_sec4 .cont > ul > li .txtbox{ padding:15px 15px 10px 15px}
+.main_con.main_sec4 .cont > ul > li .notice_list, 
+.main_con.main_sec4 .cont > ul > li .down_area .down_list{ padding:0 15px 15px 15px}
+.main_con.main_sec4 .cont > ul > li .down_area .down_list .list_in{ width:50%}
+.main_con.main_sec4 .cont > ul > li > div{ margin:0 0 0 10px}
+.main_con.main_sec4 .cont > ul > li .ti{ padding-top:5px; font-size:.750em}
+.main_con.main_sec4 .cont > ul > li .tt{ font-size:1.125em}
+.main_con.main_sec4 .cont > ul > li .tel_area .sitetel_bg{ display:none}
+.main_con.main_sec4 .cont > ul > li .notice_list .tt{ text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:60%}
+.main_con.main_sec4 .cont > ul > li .down_area .down_list .list_in .tt{ text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:70%}
+.main_con.main_sec4 .cont > ul > li .down_area .down_list .list_in .xi{ padding-left:0}
+.main_con.main_sec4 .cont > ul > li .txtbox2{ padding:1em}
+
+
+.main_con.main_sec3 .cont > ul > li{ width:100%; margin-bottom:5px}
+.main_con.main_sec3 .cont > ul > li .txbox{ padding:1.5em}
+.main_con.main_sec3 .cont > ul > li .business_area{ min-height:auto}
+.main_con.main_sec3 .cont > ul > li .div_mb{ margin-bottom:0}
+.main_con.main_sec3 .cont > ul > li .txbox .tt_en{ font-size:1em}
+.main_con.main_sec3 .cont > ul > li .txbox .t1{ font-size:1.125em; padding-bottom:10px}
+.main_con.main_sec3 .cont > ul > li .icon{ bottom:1em}
+.main_con.main_sec3 .cont > ul > li .icon > img{ width:80%}
+
+.main_partner .con_wrap .arrow_wrap{ display:none}
+
+
+.program_step{ margin-top:20px !important}
+.program_step > li{ width:33.333% !important}
+.program_step .txt .t1{ font-size:.875em}
+.program_step .inner{ margin:3px}
+.program_step .lineL:before{ display:none}
+.program_step .h1 > .inner{ font-size:.750em; padding:0; height:11em}
+.program_step .h1 > .inner .num{ padding:1em 0 0 0}
+
+#quick{ display:none}
+
+#footer .menu_wrap .gnb_wrap{ display:none}
+#footer .box2{ max-width:98%; margin:0 auto}
+#footer .footerLogo{ padding-right:1em; width:4em}
+#footer .link_wrap{ padding-left:1em}
+#footer .info_wrap .info{ width:80%}
+#footer .info_wrap .info > li{ line-height:1.5; margin-right:1em}
+#footer .link_wrap .link > li > a{ margin:0 .5em}
+
+#contents .sub_visual_wrap .va_wrap{ height:17.5em}
+#contents .sub_visual_wrap .slogan .tit{ font-size:1.570em}
+#contents .sub_visual_wrap .sub_gnb_wrap{ bottom:2.8em}
+#contents .sub_visual_wrap .sub_gnb_wrap .gnb > li .dp2 > li{ max-width:100% !important}
+#contents .sub_visual_wrap .sub_gnb_wrap .gnb > li .dp2 > li > a{ height:2.5em}
+#contents .sub_visual_wrap .sub_gnb_wrap .gnb > li .dp2 > li > a .va{ font-size:.875em}
+#contents .sub_tab_wrap .gnb .dp3 > li > a{ font-size:.857em; padding:0 10px}
+#contents .sub_tab_wrap{ margin-bottom:1.5em}
+#contents .sub_tab_wrap .gnb .va_wrap{ height:50px}
+
+#contents .doc.st1{ margin-top:-1.5em}
+
+
+
+/*SUBPAGE*/
+.greetings_wrap .left{ width:100%}
+.greetings_wrap .right{ width:45%}
+.greetings_wrap .t1{ width:100%; font-size:1.250em}
+.greetings_wrap .t2{ font-size:1em}
+
+.history_area .history_lst{ margin-left:85px}
+.history_area .history_lst .list{ padding:10px 0}
+.history_area .history_lst .list dd.first{ padding:5px 0 5px 10px; margin-left:-50px; font-size:.938em}
+.history_area .history_lst .list dt .year{ font-size:1.570em; margin:3px 10px 0 0}
+.history_area .history_lst .list dt{ margin:0 0 0 -160px}
+.history_area .history_lst .list dd{ float:none}
+.history_area .history_lst .list dd strong{ min-width:27px}
+
+
+.board_photo_wrap.photo2 > li{ width:50%}
+.board_photo_wrap.photo2 .list .tit{ font-size:14px}
+
+.root_daum_roughmap .wrap_map{ height:250px !important}
+.location_wrap .map_info1{ padding:1em}
+.location_wrap .map_info1 .t1 span{ margin-right:0; line-height:1.4}
+.location_wrap .btn_in{ float:left}
+.location_wrap .btn_in .more.va_wrap{ height:1.5em !important; width:100px; margin-top:5px}
+.location_wrap .map_info2 > li .info{ margin:0 0 0 70px}
+.location_wrap .map_info2 > li{ padding:2em 0}
+.location_wrap .map_info2 > li h3{ font-size:1.250em}
+.location_wrap .map_info2 > li h3 .xi{ font-size:1.250rem}
+
+.top_bg{ padding:2em 0}
+.top_bg .t1{ font-size:1.250em}
+.pro_wrap .txBox{ padding:1.5em}
+.sub_tt_wrap .tit{ font-size:1.125em}
+.sub_tt_wrap .tit:before,
+.sub_tt_wrap .tit:after{ top:6px}
+.pro_wrap .tb_wrap{ overflow-x:scroll;}
+.table_st{ font-size:.938em}
+.table_st th{ padding:10px}
+.table_st td{ padding:5px}
+
+.pro_wrap .pro_list1,
+.pro_wrap .pro_list2{ padding:1em}
+.pro_wrap .btn_wrap{ height:30px; line-height:30px; width:100px; font-size:.875em; display:block; margin-top:10px}
+.sub_tt_wrap2 .tit{ font-size:1em}
+.pro_wrap .step_process > li,
+.pro_wrap .step_process2 > li{ width:100%}
+.pro_wrap .step_process > li .inner,
+.pro_wrap .step_process2 > li .inner{ min-height:auto}
+.pro_wrap .step_process .num,
+.pro_wrap .step_process2 .num{ padding:0 0 1em 0}
+
+.pro_wrap .pro_list3 .list01 > dt{ width:100%; font-size:1em; padding:1em 1em 0 1em}
+.pro_wrap .pro_list3 .list01 > dd{ width:100%; padding:1em}
+.pro_wrap .pro_list3 .list01 > dd > ul > li{ padding-right:2em}
+
+.project2_wrap .con{ padding:1.5em}
+.project2_wrap .con .img_wrap,
+.project2_wrap .con .text_wrap{ width:100%;}
+.project2_wrap .con .img_wrap .bg1,
+.project2_wrap .con .img_wrap .bg2,
+.project2_wrap .con .img_wrap .bg3,
+.project2_wrap .con .img_wrap .bg4,
+.project2_wrap .con .img_wrap .bg5,
+.project2_wrap .con .img_wrap .bg6,
+.project2_wrap .con .img_wrap .bg7,
+.project2_wrap .con .img_wrap .bg8{ width:auto; height:300px;}
+
+.pro_wrap .page_tt{ font-size:1.375em}
+.page_sec{ margin-top:30px}
+.pro_wrap .page_t1{ width:100%; font-size:.938em}
+.pro_wrap .gall_wrap{ padding-top:1em}
+.photo_w.page_sec2{ margin-top:0}
+.board_photo_wrap .list{ padding:0}
+.searching_area{ margin-top:-1em}
+
+.privacy_area.st .privacy_box{ padding:10px}
+.privacy_area.st .privacy_box .privacy_in{ padding:20px}
+}
+
+
+@media screen and (max-width:375px){
+
+#header .logo{ width:50%}
+.main_con.main_sec2 .tab_wrap .tab_ul > li > a{ font-size:.750em}
+}

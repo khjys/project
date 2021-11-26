@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>원일화학엔환경</title>
+    <link href="css/xeicon.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/inc.css" rel="stylesheet" type="text/css" />
+    <link href="css/response.css" rel="stylesheet" type="text/css" />
+    <link href="css/board.css" rel="stylesheet" type="text/css" />
+    <link href="css/font.css" rel="stylesheet" type="text/css" />
+    <link href="js/slick/slick.css" rel="stylesheet" type="text/css" />
+    <script src="js/slick/slick.js" type="text/javascript"></script>
+    <script src="js/inc.js" type="text/javascript"></script>
+</head>
+<body id="main">
+    <div id="header">
+        <div class="box0 fl_wrap">
+            <h1 class="logo"><a href="#" class="va_wrap"><img src="images/inc/logo.png" class="logo1" /><img src="images/inc/logo_w.png" class="logo2" /></a></h1>
+            <div class="menu_wrap fl_wrap">
+               <div class="gnb_wrap">
+                    <span class="gnbBg"></span>
+                    <ul class="gnb di_wrap">
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">회사소개</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">인사말</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">회사연혁</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">조직도</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">인증현황</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">오시는길</span></span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">측정분석</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">환경측정대행</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">폐기물 전문분석</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">기타분석</span></span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">방지시설 및 약품</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">환경전문공사</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">약품제조</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">기술연구소</span></span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">기타 측정분석</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">원소분석</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">이온분석</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">TOC</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">발열량</span></span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">환경플랜트 및 약품사업</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">환경오염 방지시설</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">환경약품제조</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">기업부설연구소</span></span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">시험의뢰</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">공지사항</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">시험의뢰서</span></span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="etc_wrap">
+                    <a href="#" class="va_wrap etcBtn"><span class="va"><i class="xi xi-home-o"></i></span></a>
+                </div>            
+                <div class="all_wrap">
+                    <a href="javascript:void(0)" class="allBtn va_wrap allOpen"><span class="va"><i class="xi xi-list-dot"></i></span></a>
+                    <div class="all">
+                        <span class="bg"></span>
+                        <div class="in">
+                            <div class="tit_wrap">
+                                <a href="#" class="btn home va_wrap"><span class="va"><i class="xi xi-home-o"></i></span></a>
+                                <p class="tit va_wrap"><span class="va">전체메뉴</span></p>
+                                <a href="javascript:void(0)" class="btn close va_wrap allClose"><span class="va"><i class="xi xi-close"></i></span></a>
+                            </div>
+                            <!--gnb start-->
+                            <ul class="gnb di_wrap">
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">회사소개</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">인사말</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">회사연혁</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">조직도</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">인증현황</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">오시는길</span></span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">측정분석</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">환경측정대행</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">폐기물 전문분석</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">기타분석</span></span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">방지시설 및 약품</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">환경전문공사</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">약품제조</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">기술연구소</span></span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">기타 측정분석</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">원소분석</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">이온분석</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">TOC</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">발열량</span></span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">환경플랜트 및 약품사업</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">환경오염 방지시설</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">환경약품제조</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">기업부설연구소</span></span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">시험의뢰</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">공지사항</span></span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">시험의뢰서</span></span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--gnb end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                allWrap();
+                $(window).load(function(){
+                setTimeout (function(){gnbWrap()},100)
+                })
+                function allWrap(){
+                    var obj = $("#header .all_wrap");
+                    var oBtn = obj.find(".allOpen");
+                    var cBtn = obj.find(".allClose");
+                    var bBtn = obj.find(".bg");
+                    oBtn.click(function(){
+                        obj.addClass("on");
+                    });
+                    cBtn.click(function(){
+                        obj.removeClass("on");
+                    });
+              bBtn.click(function(){
+                obj.removeClass("on");
+              });
+                        var gnbObj = obj.find(".gnb .dp1");
+              gnbObj.attr("href","javascript:void(0)");
+              gnbObj.click(function(){
+                if( $(this).next(".dp2").css("display")=="none"){
+                  obj.find(".dp2").slideUp();
+                  $(this).next(".dp2").slideDown();
+                }else{
+                  $(this).next(".dp2").slideUp();
+                }
+              });
+                }
+                function gnbWrap(){
+                    var obj = $("#header");
+                    var BG = obj.find(".gnbBg");
+                    var Btn = obj.find(".gnb_wrap");
+                    var Li = Btn.find(".dp2");
+                    Li.equalizeHeights();
+                    var H = Li.outerHeight();
+                    Btn.find(".dp1").mouseenter(function(){
+                        obj.addClass("stW");
+                        Btn.addClass("on");
+                        BG.outerHeight(H);
+                    });
+                    Btn.mouseleave(function(){
+                        var T = $(window).scrollTop();
+                        if(T == 0){
+                        obj.removeClass("stW");
+                        }
+                        Btn.removeClass("on");
+                        BG.outerHeight(0).removeClass("on");
+                    });
+                }
+                //load scroll시 stW//
+                $(window).load(function(){
+                    $("body").addClass("load");
+                })
+                $(window).scroll(function(){
+                    var scrollY = $(window).scrollTop()
+                    if(scrollY > 0){
+                        $("body").addClass("scroll");
+                        $("#header").addClass("stW");
+                    }else{
+                        $("body").removeClass("scroll");
+                        $("#header").removeClass("stW");
+                    }
+                })
+            </script>
+        </div>
+    </div>
+    <!--header end-->
+    <div id="contents">
+        <div class="mainVisual_wrap">
+            <div class="mainVisual">
+                <div class="img"><span class="bg" style="background-image: url(images/main/main_visual1.jpg);"></span></span></div>
+                <div class="img"><span class="bg" style="background-image: url(images/main/main_visual2.jpg);"></span></span></div>
+                <div class="img"><span class="bg" style="background-image: url(images/main/main_visual3.jpg);"></span></span></div>
+                <div class="img"><span class="bg" style="background-image: url(images/main/main_visual4.jpg);"></span></span></div>
+            </div>
+            <div class="slogan_wrap">
+                <div class="slogan">
+                    <p class="t1"><span class="c1">환경</span>을 지키는 아름다운 <span class="c1">동행</span></span></p>
+                    <p class="t2"><span class="c1">(주)원일화학엔환경</span>은 <span class="c1">최고의 환경서비스</span>를 제공하겠습니다.</p>
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                    <span class="line line4"></span>
+                    <span class="line line5"></span>                
+                </div>
+            </div>
+        </div>
+        <!--main01-->
+        <div class="main_business_wrap">
+            <div class="wrap"><img src="images/main/main_con1_tit.png" /></div>
+            <div class="box1">
+                <ul class="list fl_wrap">
+                    <li>
+                        <a href="#" class="in">
+                            <div class="resize">
+                                <div class="re vm_wrap bg bg1">
+                                    <p class="tt vm_tt">환경측정대행</p>
+                                    <div class="on vm_wrap"><div class="vm_tt"><i class="t1">환경측정대행</i><i class="t2">해당 메뉴의 간략한 설명이 들어갑니다. 해당 메뉴의 간략한 설명이 들어갑니다.</i><div class="btn"><span class="viewmore">view more</span><i class="xi xi-angle-right-thin"></i></div></div></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="in">
+                            <div class="resize">
+                                <div class="re vm_wrap bg bg2">
+                                    <p class="tt vm_tt">폐기물 전문분석</p>
+                                    <div class="on vm_wrap"><div class="vm_tt"><i class="t1">폐기물 전문분석</i><i class="t2">해당 메뉴의 간략한 설명이 들어갑니다. 해당 메뉴의 간략한 설명이 들어갑니다.</i><div class="btn"><span class="viewmore">view more</span><i class="xi xi-angle-right-thin"></i></div></div></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="in">
+                            <div class="resize">
+                                <div class="re vm_wrap bg bg3">
+                                    <p class="tt vm_tt">기타분석</p>
+                                    <div class="on vm_wrap"><div class="vm_tt"><i class="t1">기타분석</i><i class="t2">해당 메뉴의 간략한 설명이 들어갑니다. 해당 메뉴의 간략한 설명이 들어갑니다.</i><div class="btn"><span class="viewmore">view more</span><i class="xi xi-angle-right-thin"></i></div></div></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="in">
+                            <div class="resize">
+                                <div class="re vm_wrap bg bg4">
+                                    <p class="tt vm_tt">방지시설 및 약품</p>
+                                    <div class="on vm_wrap"><div class="vm_tt"><i class="t1">방지시설 및 약품</i><i class="t2">해당 메뉴의 간략한 설명이 들어갑니다. 해당 메뉴의 간략한 설명이 들어갑니다.</i><div class="btn"><span class="viewmore">view more</span><i class="xi xi-angle-right-thin"></i></div></div></div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--main01 end-->
+        <!--main02 start-->
+        <div class="main_con main_sec2">
+            <p class="main_tit st">Procedure</p>
+            <p class="main_tit st2">환경측정분석 <span class="c1">시험의뢰 절차</span></p>
+            <div class="wrap_idx">
+                <div class="tab_wrap st wrap_idx">
+                    <ul class="tab_ul tab_idx click di_wrap">
+                        <li class="tab01 on"><a href="javascript:void(0);"><span class="va"></span><span class="va_tt">신고제출용</span></a></li>
+                        <li class="tab02"><a href="javascript:void(0);"><span class="va"></span><span class="va_tt">품질관리,연구,기타 목적용</span></a></li>
+                    </ul>
+                </div><!--tab_wrap end-->
+                <div class="detail_wrap con_idx">
+                    <div class="idx detail on">
+                    
+                        <div class="step_slide_wrap st1 box1">
+                            <ul class="step_slide">
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon1.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><i class="step_ti">STEP 01</i>견적요청</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon2.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><i class="step_ti">STEP 02</i>분석의뢰서 및 사업자등록증 접수<br />(팩스 또는 이메일)</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon3.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><i class="step_ti">STEP 03</i>세금계산서 발행 및 수수료 납부</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon4.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><i class="step_ti">STEP 04</i>채취일정 확정통보</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon5.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><i class="step_ti">STEP 05</i>채취 기술인력 방문 시료채취</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon1.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><i class="step_ti">STEP 06</i>분석<br />(시료별 처리기간 소요)</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon6.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><i class="step_ti">STEP 07</i>성적서 발송<br />(등기우편)</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="control_box">
+                                <ul class="control_arrow">
+                                    <li class="dot"><i class="dot"></i><span class="line"></span></li>
+                                    <li class="prev"><i class="xi xi-angle-left"></i></li>
+                                    <li class="next"><i class="xi xi-angle-right"></i></li>
+                                </ul>
+                            </div>
+                            
+                            </div><!--step_slide_wrap end-->
+                        </div>
+    
+                    
+                    <div class="idx detail">
+                    
+                        <div class="step_slide_wrap st2 box1">
+                            <ul class="step_slide st">
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon1.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><span class="step_ti">STEP 01</span>견적요청</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon2.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><span class="step_ti">STEP 02</span>폐기물 시료와 분석의뢰서 및 사업자등록증 접수<br />(택배 또는 방문접수)</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon3.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><span class="step_ti">STEP 03</span>세금계산서 발행 및 수수료 납부</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon4.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><span class="step_ti">STEP 04</span>분석<br />(시료별 소요기간 소요)</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a href="#" class="inner">
+                                        <div class="border_dv">
+                                            <p class="t_img"><img src="images/main/main_sec2_icon5.png" /></p>
+                                            <p class="tt">
+                                                <span class="tit"><span class="step_ti">STEP 05</span>성적서 발송<br />(등기우편)</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="control_box">
+                                <ul class="control_arrow">
+                                    <li class="dot"><i class="dot"></i><span class="line"></span></li>
+                                    <li class="prev"><i class="xi xi-angle-left"></i></li>
+                                    <li class="next"><i class="xi xi-angle-right"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                    
+                    </div> 
+                </div><!--wrap_idx end-->
+            </div>
+        </div>
+        <!--main02 end-->
+        <!--main03 start-->
+        <div class="main_con main_sec3">
+            <div class="box1">
+                <p class="main_tit">회사<span class="c1">소개</span></p>
+                <div class="cont">
+                    <ul class="fl_wrap">
+                        <li>
+                            <div class="history_area div_mb">
+                                <div class="txbox">
+                                    <p class="tt_en">History</p>
+                                    <p class="t1">회사연혁</p>
+                                    <p class="tx">(주)원일화학엔환경은 1991년 환경산업기업 원일화학을 시작으로 환경종합서비스 업체로 발전하였습니다.</p>
+                                   </div>
+                                <span class="icon"><img src="images/main/main_con3_icon1.png" /></span>
+                            </div>
+                            <div class="certi_area" onclick="location.href='<?=$link_company_certification?>'">
+                                <div class="txbox">
+                                    <p class="tt_en">Certificate Center</p>
+                                    <p class="t1">인증서 및 등록증</p>
+                                    <p class="tx">당사에서 보유한 라이센스를 확인하세요.</p>
+                                </div>
+                                <span class="icon"><img src="images/main/main_con3_icon2.png" /></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="business_area">
+                                <div class="txbox">
+                                    <p class="tt_en">Business Area</p>
+                                    <p class="t1">사업분야</p>
+                                    <p class="tx">(주)원일화학엔환경의 사업분야를 소개합니다.</p>
+                                    <ul class="business_list">
+                                        <li>- 환경컨설팅</li>
+                                        <li>- 환경측정분석사업부</li>
+                                        <li>- 약품사업부</li>
+                                        <li>- 환경플랜트사업부</li>
+                                        <li>- 기업부설기술연구소</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ceo_area div_mb">
+                                <div class="txbox boxsh">
+                                    <p class="tt_en st">CEO Greeting</p>
+                                    <p class="t1 st">인사말</p>
+                                    <p class="tx st">미래산업의 핵심키워드는 환경입니다. 귀사에 효율적인 방안을 제시합니다.</p>
+                                </div>
+                                <span class="icon"><img src="images/main/main_con3_icon3.png" /></span>
+                            </div>
+                            <div class="location_area">
+                                <div class="txbox boxsh">
+                                    <p class="tt_en st">Location</p>
+                                    <p class="t1 st">오시는 길</p>
+                                    <p class="tx st">(주)원일화학엔환경의 찾아오시는 길을 안내해 드립니다.</p>
+                                </div>
+                                <span class="icon"><img src="images/main/main_con3_icon4.png" /></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--main03 end-->
+        <!--main04 start-->
+        <div class="main_con main_sec4">
+            <div class="box1">
+                <p class="main_tit">고객<span class="c1">지원</span></p>
+                <div class="cont">
+                    <ul class="fl_wrap">
+                        <li>
+                            <div class="notice_area custom_equal">
+                                <div class="txtbox bg1">
+                                    <p class="tt">공지사항</p>
+                                    <p class="ti">(주)원일화학엔환경의<br />각종 소식 및 공지사항을 전합니다.</p>
+                                </div>
+                                <ul class="notice_list">
+                                    <li><a href="#"><span class="tt">해당 게시판의 제목이 들어갑니다.</span><i class="date">2020.00.00</i></a></li>
+                                    <li><a href="#"><span class="tt">해당 게시판의 제목이 들어갑니다.</span><i class="date">2020.00.00</i></a></li>
+                                    <li><a href="#"><span class="tt">해당 게시판의 제목이 들어갑니다.</span><i class="date">2020.00.00</i></a></li>
+                                    <li><a href="#"><span class="tt">해당 게시판의 제목이 들어갑니다.</span><i class="date">2020.00.00</i></a></li>
+                                    <li><a href="#"><span class="tt">해당 게시판의 제목이 들어갑니다.</span><i class="date">2020.00.00</i></a></li>
+                                    <li><a href="#"><span class="tt">해당 게시판의 제목이 들어갑니다.</span><i class="date">2020.00.00</i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="down_area custom_equal">
+                                <div class="txtbox bg2">
+                                    <p class="tt">분석의뢰서</p>
+                                    <p class="ti">(주)원일화학엔환경의<br />분석의뢰서를 다운로드 받으세요.</p>
+                                </div>
+                                <ul class="down_list">
+                                    <li class="fl_wrap"><div class="list_in fl" onclick="location.href='<?=$link_customer_inquiry?>'"><span class="tt">폐기물 시료채취</span><i class="xi xi-download"></i></div><div class="list_in fr" onclick="location.href='<?=$link_customer_inquiry?>'"><span class="tt">폐기물시험의뢰서</span><i class="xi xi-download"></i></div></li>
+                                    <li class="fl_wrap"><div class="list_in fl" onclick="location.href='<?=$link_customer_inquiry?>'"><span class="tt">대기 시험의뢰서</span><i class="xi xi-download"></i></div><div class="list_in fr" onclick="location.href='<?=$link_customer_inquiry?>'"><span class="tt">악취 시험의뢰서</span><i class="xi xi-download"></i></div></li>
+                                    <li class="fl_wrap"><div class="list_in fl" onclick="location.href='<?=$link_customer_inquiry?>'"><span class="tt">PCBs 시험의뢰서</span><i class="xi xi-download"></i></div><div class="list_in fr" onclick="location.href='<?=$link_customer_inquiry?>'"><span class="tt">수질 시험의뢰서</span><i class="xi xi-download"></i></div></li>
+                                    <li class="fl_wrap"><div class="list_in fl" onclick="location.href='<?=$link_customer_inquiry?>'"><span class="tt">기타 시험의뢰서</span><i class="xi xi-download"></i></div><div class="list_in fr" onclick="location.href='<?=$link_customer_inquiry?>'"><span class="tt">해양 시험의뢰서</span><i class="xi xi-download"></i></div></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tel_area custom_equal">
+                                <div class="txtbox2">
+                                    <p class="tt">대표전화</p>
+                                    <p class="tel"><i class="xi xi-call"></i><span class="sitetel">031-498-3390</span></p>
+                                    <p class="fax">Fax. 031-498-3394</p>
+                                    <p class="time">평일 09:00 ~ 18:00(토, 공휴일 휴무)</p>
+                                </div>
+                                <div class="sitetel_bg"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(function(){
+                $(".main_sec4 .cont .custom_equal").equalizeHeights();
+            });
+        </script>
+        <!--main04 end-->
+        <!--partner start-->
+        <div class="conSection main_con main_partner" data-no="7">
+            <div class="box1 con_box">
+                <div class="con_wrap box4">
+                    <div class="list_slide">
+                    <div><a href="#none" class="resize"><span class="re vm_wrap"><img src="images/temp/partner1.jpg" /></span><span class="layer vm_wrap"><i class="tt vm_tt">업체명1</i></span></a></div>
+                    <div><a href="#none" class="resize"><span class="re vm_wrap"><img src="images/temp/partner2.jpg" /></span><span class="layer vm_wrap"><i class="tt vm_tt">업체명2</i></span></a></div>
+                    <div><a href="#none" class="resize"><span class="re vm_wrap"><img src="images/temp/partner3.jpg" /></span><span class="layer vm_wrap"><i class="tt vm_tt">업체명3</i></span></a></div>
+                    <div><a href="#none" class="resize"><span class="re vm_wrap"><img src="images/temp/partner4.jpg" /></span><span class="layer vm_wrap"><i class="tt vm_tt">업체명4</i></span></a></div>
+                    <div><a href="#none" class="resize"><span class="re vm_wrap"><img src="images/temp/partner5.jpg" /></span><span class="layer vm_wrap"><i class="tt vm_tt">업체명5</i></span></a></div>
+                    <div><a href="#none" class="resize"><span class="re vm_wrap"><img src="images/temp/partner6.jpg" /></span><span class="layer vm_wrap"><i class="tt vm_tt">업체명5</i></span></a></div>
+                </div>
+                <ul class="arrow_wrap">
+                    <li class="prev"><i class="xi xi-angle-left"></i></li>
+                    <li class="next"><i class="xi xi-angle-right"></i></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <!--partner end-->
+    </div><!--contents end-->
+    <!--footer start-->
+    <div id="footer">
+        <div class="menu_wrap">
+            <div class="box1">
+                <div class="gnb_wrap">
+                    <ul class="gnb di_wrap">
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">회사소개</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">인사말</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">회사연혁</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">조직도</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">인증현황</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">오시는길</span></span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">측정분석</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">환경측정대행</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">폐기물 전문분석</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">기타분석</span></span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">방지시설 및 약품</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">환경전문공사</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">약품제조</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">기술연구소</span></span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">기타 측정분석</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">원소분석</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">이온분석</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">TOC</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">발열량</span></span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">환경플랜트 및 약품사업</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">환경오염 방지시설</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">환경약품제조</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">기업부설연구소</span></span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">시험의뢰</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">공지사항</span></span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">시험의뢰서</span></span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="link_wrap">
+            <div class="box1">
+                <ul class="fl_wrap">
+                    <li>
+                        <ul class="link fl_wrap">
+                            <li><a href="#" class="va_wrap"><span class="va">홈</span></a></li>
+                            <li><a href="#" class="va_wrap"><span class="va">회사소개</span></a></li>
+                            <li><a href="#" class="va_wrap"><span class="va">개인정보처리방침</span></a></li>
+                            <li><a href="#" class="va_wrap"><span class="va">오시는길</span></a></li>
+                            <li><a href="#" class="va_wrap" target="_blank"><span class="va">관리자</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="fr">
+                        <a href="javascript:goTop()" class="gotop va_wrap"><span class="va"><i class="xi xi-arrow-top"></i><i class="tt">TOP</i></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="info_wrap">
+            <div class="box1 fl_wrap">
+                <div class="footerLogo"><img src="images/inc/footer_logo.png" /></div>
+                <ul class="info fl_wrap">
+                    <li>(주)원일화학엔환경</li>
+                    <li>대표 : 김영신</li>
+                    <li>경기도 시흥시 군자천로 31번길 70 (시화공단 2바 215)</li>
+                    <li class="cl">TEL. 031-498-3390</li>
+                    <li>Fax. 031-498-3394</li>
+                    <li>E-mail. wonilce@wonilce.com</li>
+                    <li class="copyright">copyright(c) WONIL CHEMICAL & ENVIRONMENT CO., LTD. all rights reserved.</li>
+                </ul>
+                <span class="mark"><img src="images/inc/footer_mark.png" /></span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        equalH("#footer .menu_wrap .gnb > li");
+    </script>
+    <!--footer end-->
+    <!--메인 스크립트-->
+    <script type="text/javascript">
+
+        mainVisual();
+        function mainVisual(){		
+            var Wrap = $(".mainVisual_wrap");
+            var slideWrap = $(".mainVisual_wrap .mainVisual");
+            slideWrap.slick({
+                fade: true,
+                arrows: false,
+                dots: true,
+                autoplay: true,
+                pauseOnHover: false,
+                pauseOnFocus: false,
+                autoplaySpeed: 4000,	
+                speed: 500,
+                prevArrow: Wrap.find('.arrow_wrap .prev'),
+                nextArrow: Wrap.find('.arrow_wrap .next')  
+            });	
+        
+            slideWrap.find('.img').eq(0).addClass('activeAni');
+            slideWrap.on('beforeChange', function(event, slick, currentSlide, nextSlide){				
+                slideWrap.find('.img').removeClass('activeAni');
+                slideWrap.find('.img').eq(nextSlide).addClass('activeAni');
+            });	
+        }
+        //
+        function partnerSlide(){
+            var Wrap = $(".main_partner");
+            var slideWrap = $(".main_partner .list_slide");
+            slideWrap.slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                fade: false,
+                arrows: true,
+                dots: false,
+                autoplay: true,
+                pauseOnHover: true,
+                pauseOnFocus: false,
+                autoplaySpeed: 4000,
+                speed: 500,
+                prevArrow: Wrap.find('.arrow_wrap .prev'),
+                nextArrow: Wrap.find('.arrow_wrap .next')
+            });
+        }
+        //
+        function stepSlide(){
+            var Wrap = $(".step_slide_wrap.st1");
+            var SlideWrap = $(".step_slide_wrap.st1 .step_slide");
+            SlideWrap.slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '0',
+            arrows: true,
+            dots: true,
+            pauseOnHover: true,
+            pauseOnFocus: false,
+            autoplay: true,
+            prevArrow: Wrap.find('.control_arrow .prev .xi'),
+            nextArrow: Wrap.find('.control_arrow .next .xi')
+            });
+        }
+        //
+        function stepSlide2(){
+            var Wrap = $(".step_slide_wrap.st2");
+            var SlideWrap = $(".step_slide_wrap.st2 .step_slide.st");
+            SlideWrap.slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '0',
+            arrows: true,
+            dots: true,
+            pauseOnHover: true,
+            pauseOnFocus: false,
+            autoplay: true,
+            prevArrow: Wrap.find('.control_arrow .prev .xi'),
+            nextArrow: Wrap.find('.control_arrow .next .xi')
+            });
+        }
+        //
+        $(window).scroll(function(){
+            var scrollTop = $(window).scrollTop();
+            if(scrollTop > 0){
+                $("body").addClass("scroll");	
+            }else{
+                $("body").removeClass("scroll");	
+            }
+        })
+        $(window).load(function(){
+            $("body").addClass("load");
+        })
+        $(document).ready(function() {
+            partnerSlide();		
+            stepSlide();
+            stepSlide2();
+        });
+        $(window).resize(function(){
+            
+        })
+        
+        </script>
+    </body>
+</html>

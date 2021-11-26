@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)코리센</title>
+    <link href="css/inc.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/font.css" rel="stylesheet" type="text/css" />
+    <link href="css/board.css" rel="stylesheet" type="text/css" />
+    <link href="css/style_response.css" rel="stylesheet" type="text/css" />
+    <link href="css/xeicon.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="js/inc.js" type="text/javascript"></script>
+    <script src="js/ui.js" type="text/javascript"></script>
+    <script src="js/placeholders.min.js" type="text/javascript" defer="defer"></script>
+    <link href="js/swiper/swiper.css" rel="stylesheet" type="text/css" />
+    <script src="js/swiper/swiper.js" type="text/javascript"></script>
+    <script src="js/swiper/circle-progress.min.js" type="text/javascript"></script>
+</head>
+<body class="main">
+    <!--header start-->
+    <div id="header" class="fWrap">
+        <div class="box0 top_wrap headerH flex space vc">
+            <h1 class="logo"><a href="index.html"></a></h1>
+            <div class="gnb_wrap">
+                <div class="menu">
+                    <!--gnb start-->
+                    <ul class="gnb fl_wrap">
+                        <li><a href="#" class="dp1 va_wrap"><span class="va">제품정보</span></a></li>
+                        <li><a href="#" class="dp1 va_wrap"><span class="va">솔루션</span></a></li>
+                        <li><a href="#" class="dp1 va_wrap"><span class="va">고객지원</span></a></li>
+                        <li><a href="#" class="dp1 va_wrap"><span class="va">코리센 소개</span></a></li>
+                    </ul>
+                    <!--gnb end-->
+                </div>
+                <div class="gnbDp2_wrap">
+                    <div class="box1 pr gnbDp2_on">
+                        <div class="gnb_tit"><p class="bg"></p><p class="tt"></p></div>
+                        <div class="gnb_menu">
+                            <!--gnb start-->
+                            <ul class="gnb fl_wrap">
+                                <li class="m_products"><a href="#" class="dp1 va_wrap"><span class="va">제품정보</span></a>
+                                    <ul class="dp2">                                        
+                                        <li><a href="#" class="vm_wrap"><span class="va">플랫폼</span></a>
+                                            <ul class="dp3">
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">GuardianⅠ</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">Guardian Ⅱ</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">서버방식시스템</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">로컬방식시스템</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">API/AGENT</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="vm_wrap"><span class="va">하드웨어</span></a>
+                                            <ul class="dp3">
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">바이오인식장치</span></a>
+                                                    <ul class="dp4">
+                                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">FV-600</span></a></li>
+                                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">FV-6000</span></a></li>
+                                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">FV-400</span></a></li>
+                                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">FV-100P</span></a></li>
+                                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">스마트도어폰</span></a></li>
+                                                      </ul>
+                                                </li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">구간암호장치</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">스마트락 솔루션</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">스마트 총기함</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <div class="draw_img"><p class="resize"><span class="re"></span></p></div>
+                                    </ul>
+                                </li>
+                                <li class="m_solution"><a href="#" class="dp1 va_wrap"><span class="va">솔루션</span></a>
+                                    <ul class="dp2">                                        
+                                        <li><a href="#" class="vm_wrap"><span class="va">산업분야</span></a>
+                                            <ul class="dp3">
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">금융</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">국방</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">기반시설</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">의료</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">교육</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">제조/상업</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <div class="draw_img img1"><p class="resize"><span class="re"></span></p></div>
+                                        <li><a href="#" class="vm_wrap"><span class="va">적용분야</span></a>
+                                            <ul class="dp3">
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">PC 보안</span></a>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">금융 인증</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">출입/근태 솔루션</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">지정맥총기관리시스템</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">구간암호 솔루션</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">스마트디지털락 솔루션</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <div class="draw_img img2"><p class="resize"><span class="re"></span></p></div>
+                                    </ul>
+                                </li>
+                                <li class="m_customer"><a href="#" class="dp1 va_wrap"><span class="va">고객지원</span></a>
+                                    <ul class="dp2">                                        
+                                        <li><a href="#" class="vm_wrap"><span class="va">고객센터</span></a>
+                                            <ul class="dp3">
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">품질 보증 정책</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">FAQ(자주하는질문)</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="vm_wrap"><span class="va">제품정보</span></a>
+                                            <ul class="dp3">
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">사용메뉴얼</span></a>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">펌웨어</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">지정맥 사용방법</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">자료실</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <div class="draw_img"><p class="resize"><span class="re"></span></p></div>
+                                    </ul>
+                                </li>
+                                <li class="m_company"><a href="#" class="dp1 va_wrap"><span class="va">코리센 소개</span></a>
+                                    <ul class="dp2">                                        
+                                        <li><a href="#" class="vm_wrap"><span class="va">회사소개</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="va">보도자료</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="va">동영상</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="va">이벤트</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="va">공시/공고</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="va">오시는길</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--gnb end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="etc_wrap flex vc">
+                <div class="head_btn">
+                    <a href="#" target="_self">지정맥인식 모듈</a>
+                </div>
+                <div class="all_wrap toggleWrap PC">
+                    <a href="javascript:void(0)" class="all_btn"><i class="xi xi-align-left"></i></a>
+                </div>
+                <div class="all_wrap PHONE">
+                    <a class="va_wrap js-toggle-nav PHONE all_btn" href="javascript:void(0);"><span class="va"><i class="xi xi-bars side_menu_btn"></i></span></a>
+                    <div class="all scrollst">
+                        <div class="box1 pr">
+                            <!--gnb start-->
+                            <!--gnb end-->
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <!--header end-->
+    <!--contents start-->
+    <div id="contents">
+        <div class="swiper-container mainSlider linkScroll" data-no="0">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide el">
+                  <div class="bg" style="background-image:url(images/main/main_visual1.jpg)"></div>
+                  <div class="box1">
+                    <div class="slogan">
+                      <p class="t0">Finger-vein Identification Technology</p>
+                      <p class="t1">지정맥 인증 시스템 FV-600</p>
+                      <p class="line"></p>
+                      <p class="t2"><i>가장 안전한 보안수단으로 인정받는 지정맥 인증 시스템은<br>
+                        향후 보안시장을 이끌어갈 차세대 보안솔루션이 될 것 입니다.</i></p>
+                      <p class="moreBtn"><span class="tt">자세히 보기</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide el">
+                    <div class="bg" style="background-image:url(images/main/main_visual2.jpg)"></div>
+                    <div class="box1">
+                      <div class="slogan">
+                        <p class="t0">Finger-vein Identification Technology</p>
+                        <p class="t1">지정맥 인증 시스템 FV-6000</p>
+                        <p class="line"></p>
+                        <p class="t2"><i>가장 안전한 보안수단으로 인정받는 지정맥 인증 시스템은<br>
+                          향후 보안시장을 이끌어갈 차세대 보안솔루션이 될 것 입니다.</i></p>
+                        <p class="moreBtn"><span class="tt">자세히 보기</span></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="swiper-slide el">
+                    <div class="bg" style="background-image:url(images/main/main_visual3.jpg)"></div>
+                    <div class="box1">
+                      <div class="slogan">
+                        <p class="t0">Point to Point Encryption System</p>
+                        <p class="t1">구간암호화 솔루션</p>
+                        <p class="line"></p>
+                        <p class="t2"><i>㈜코리센은 다양한 분야의 핵심기술을 보유,<br>
+                            고객에게 최상의 제품과 솔루션을 공급하고 있습니다.</i></p>
+                        <p class="moreBtn"><span class="tt">자세히 보기</span></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="swiper-slide el">
+                    <div class="bg" style="background-image:url(images/main/main_visual4.jpg)"></div>
+                    <div class="box1">
+                      <div class="slogan">
+                        <p class="t0">Networking Locking Solution</p>
+                        <p class="t1">스마트 디지털락 솔루션</p>
+                        <p class="line"></p>
+                        <p class="t2"><i>㈜코리센은 고객의 비즈니스 요구에 부응하여<br>
+                            가치 있고 신뢰할 수 있는 솔루션을 제공할 수 있도록 노력하겠습니다.</i></p>
+                        <p class="moreBtn"><span class="tt">자세히 보기</span></p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainControl">
+                <div class="box0 flex vc">
+                    <div class="mainProgress"></div>
+                    <div class="mainPauseWrap">
+                        <i class="xi xi-pause mainSlider-pause mainSlider-btn"></i>
+                        <i class="xi xi-play mainSlider-play mainSlider-btn"></i>
+                    </div>
+                    <div class="mainSlider-prev mainSlider-btn"><i class="xi xi-long-arrow-left"></i></div>
+                    <div class="mainSlider-next mainSlider-btn"><i class="xi xi-long-arrow-right"></i></div>
+                    <div class="mainSlider-pagination mgL"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section1 main_sec">
+            <div class="box1">
+                <div class="main_tit"><span class="t1"><span class="strong db">코리센은 다양한 분야의 핵심기술을 보유, 고객에게 최상의 제품과 솔루션을</span>공급하는 국내 최고의 보안전문기업입니다</span></div>
+                <div class="wrap_idx">
+                    <div class="prod_tab">
+                        <ul class="tab tab_idx click di_wrap ac">
+                            <li class="vm_wrap on"><span class="icon on1"><img src="images/main/busi_tab01.png" /></span><span class="vm_tt tt db">생체인식사업</span></li>
+                            <li class="vm_wrap"><span class="icon on2"><img src="images/main/busi_tab02.png" /></span><span class="vm_tt tt db">ICT보안사업</span></li>
+                            <li class="vm_wrap"><span class="icon on3"><img src="images/main/busi_tab03.png" /></span><span class="vm_tt tt db">4차 산업 신기술</span></li>
+                        </ul>
+                    </div>
+                    <div class="con_wrap con_idx">
+                        <div class="idx on">
+                            <div class="prod_list_wrap">
+                                <ul class="list di_wrap">
+                                    <li>
+                                      <a href="#" class="prod_st line_ani in">
+                                        <div class="resize s3">
+                                          <div class="re vm_wrap"><span class="vm_tt"></span><img src="images/main/main_prod1.jpg" /></div>
+                                          <p class="layer vm_wrap"><i class="xi vm_tt"></i></p>
+                                        </div>
+                                        <div class="con_wrap">
+                                          <i class="tit NS">Innovation in Finger-vein</i>
+                                          <i class="t1">FV-600</i>
+                                        </div>
+                                        <span class="line lineT"></span><span class="line lineB"></span><span class="line lineR"></span><span class="line lineL"></span>
+                                      </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="prod_st line_ani in">
+                                          <div class="resize s3">
+                                            <div class="re vm_wrap"><span class="vm_tt"></span><img src="images/main/main_prod2.jpg" /></div>
+                                            <p class="layer vm_wrap"><i class="xi vm_tt"></i></p>
+                                          </div>
+                                          <div class="con_wrap">
+                                            <i class="tit NS">Innovation in Finger-vein</i>
+                                            <i class="t1">FV-6000</i>
+                                          </div>
+                                          <span class="line lineT"></span><span class="line lineB"></span><span class="line lineR"></span><span class="line lineL"></span>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="#" class="prod_st line_ani in">
+                                          <div class="resize s3">
+                                            <div class="re vm_wrap"><span class="vm_tt"></span><img src="images/main/main_prod3.jpg" /></div>
+                                            <p class="layer vm_wrap"><i class="xi vm_tt"></i></p>
+                                          </div>
+                                          <div class="con_wrap">
+                                            <i class="tit NS">Innovation in Finger-vein</i>
+                                            <i class="t1">FV-400</i>
+                                          </div>
+                                          <span class="line lineT"></span><span class="line lineB"></span><span class="line lineR"></span><span class="line lineL"></span>
+                                        </a>
+                                      </li>
+                                      <li>
+                                        <a href="#" class="prod_st line_ani in">
+                                          <div class="resize s3">
+                                            <div class="re vm_wrap"><span class="vm_tt"></span><img src="images/main/main_prod4.jpg" /></div>
+                                            <p class="layer vm_wrap"><i class="xi vm_tt"></i></p>
+                                          </div>
+                                          <div class="con_wrap">
+                                            <i class="tit NS">Innovation in Finger-vein</i>
+                                            <i class="t1">FV-100P</i>
+                                          </div>
+                                          <span class="line lineT"></span><span class="line lineB"></span><span class="line lineR"></span><span class="line lineL"></span>
+                                        </a>
+                                      </li>
+                                    </ul>
+                            </div>
+                        </div><!-- idx1 end-->
+                        <div class="idx">
+                            <div class="prod_list_wrap">
+                                <ul class="list di_wrap">
+                                    <li>
+                                        <a href="#" class="prod_st line_ani in">
+                                            <div class="resize s3">
+                                                <div class="re vm_wrap"><span class="vm_tt"></span><img src="images/main/main_prod5.jpg" /></div>
+                                                <p class="layer vm_wrap"><i class="xi vm_tt"></i></p>
+                                            </div>
+                                            <div class="con_wrap">
+                                                <i class="tit NS">Point to point encryption system</i>
+                                                <i class="t1">구간암호장치</i>
+                                            </div>
+                                            <span class="line lineT"></span><span class="line lineB"></span><span class="line lineR"></span><span class="line lineL"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="prod_st line_ani in">
+                                            <div class="resize s3">
+                                                <div class="re vm_wrap"><span class="vm_tt"></span><img src="images/main/main_prod6.jpg" /></div>
+                                                <p class="layer vm_wrap"><i class="xi vm_tt"></i></p>
+                                            </div>
+                                            <div class="con_wrap">
+                                                <i class="tit NS">Point to point encryption system</i>
+                                                <i class="t1">스마트락 솔루션</i>
+                                            </div>
+                                            <span class="line lineT"></span><span class="line lineB"></span><span class="line lineR"></span><span class="line lineL"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--idx2 end-->
+                        <div class="idx">
+                            <div class="no_con prod">차세대 OLED 조명 Module등 준비 중 입니다.</div>        
+                        </div><!-- idx3 end-->
+                    </div>
+                </div>
+           </div>            
+        </div>
+        <div class="section2 main_sec" data-no="2">
+            <div class="main_tit"><span class="t1"><span class="strong db">코리센은 다양한 분야에서 솔루션을 구축하고 실현합니다</span></span></div>
+            <!--솔루션 시작-->
+            <div class="swiper-container busiSlider linkScroll" data-no="0">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide el">
+                        <div class="swiper-slide-wrap">
+                            <img src="images/main/busi_img01.jpg" />
+                            <div class="slogan">
+                                <p class="t0">금융</p>
+                                <p class="t1">코리센의 금융 보안 솔루션은 금융기관의 까다로운 요구 사항이 완벽히 충족되도록 최선의 완성도를 추구합니다.</p>
+                                <p class="moreBtn"><span class="tt">자세히 보기</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide el">
+                        <div class="swiper-slide-wrap">
+                            <img src="images/main/busi_img02.jpg" />
+                            <div class="slogan">
+                                <p class="t0">국방</p>
+                                <p class="t1">코리센의 국방 보안솔루션은 가장 안전한 지정맥 인식기술을 기반으로 출입통제, PC 로그인, 총기보관, 구간암호 등 다양한 국방보안솔루션을 제공합니다.</p>
+                                <p class="moreBtn"><span class="tt">자세히 보기</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide el">
+                        <div class="swiper-slide-wrap">
+                            <img src="images/main/busi_img03.jpg" />
+                            <div class="slogan">
+                                <p class="t0">기반시설</p>
+                                <p class="t1">코리센의 기반시설 보안솔루션은 가장 안전한 지정맥 인식기술을 기반으로 출입통제, PC 로그인, 구간암호, 디지털 스마트락솔루션 등 다양한 제품과 특화된 전문 솔루션을 제공합니다.</p>
+                                <p class="moreBtn"><span class="tt">자세히 보기</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide el">
+                        <div class="swiper-slide-wrap">
+                            <img src="images/main/busi_img04.jpg" />
+                            <div class="slogan">
+                                <p class="t0">의료</p>
+                                <p class="t1">코리센의 의료 보안솔루션은 가장 안전한 지정맥 인식기술을 기반으로 출입통제, PC 로그인 등 최적의 솔루션을 제공합니다.</p>
+                                <p class="moreBtn"><span class="tt">자세히 보기</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide el">
+                        <div class="swiper-slide-wrap">
+                            <img src="images/main/busi_img05.jpg" />
+                            <div class="slogan">
+                                <p class="t0">교육</p>
+                                <p class="t1">코리센의 지정맥 솔루션은 부정한 방법의 출결이나 시험응시 등을 원천적으로 방지하고 특히 비인가자의 국가자료 및 정보 취득을 통제할 수 있는 동시에 소방/ 방재 등 위험방지 시스템과의 연동을 통하여 안전을 도모합니다.</p>
+                                <p class="moreBtn"><span class="tt">자세히 보기</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide el">
+                        <div class="swiper-slide-wrap">
+                            <img src="images/main/busi_img06.jpg" />
+                            <div class="slogan">
+                                <p class="t0">제조/상업</p>
+                                <p class="t1">코리센의 지정맥 솔루션은 소규모 사업장부터 대기업 규모까지 맞춤형 솔루션을 제공하며, 축적된 반도체, 자동차, 화학 등 자동화 사업장 구축 경험을 토대로 사용자의 다양한 요구에 최적화된 솔루션을 제공합니다.</p>
+                                <p class="moreBtn"><span class="tt">자세히 보기</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="busiControl">
+                    <div class="box0 flex vc">
+                        <div class="busiLR">
+                            <div class="busiSlider-prev busiSlider-btn"><i class="xi xi-angle-left"></i></div>
+                            <div class="busiSlider-next busiSlider-btn"><i class="xi xi-angle-right"></i></div>
+                        </div>
+                        <div class="busiSlider-pagination">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section3 main_sec partner_box" data-no="3">
+            <div class="box1">
+                <div class="main_tit"><span class="t1">코리센은 다양한 파트너와 고객사에<span class="strong db">지정맥 인증 시스템을 공급하고 있습니다</span></span></div>
+                <div class="partner"> <!--파트너 사이즈 231x92px -->
+                    <ul>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_08.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_10.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_13.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_14.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_17.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_24.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_25.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_26.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_27.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_28.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_34.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_35.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_36.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_37.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_38.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_41.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_43.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_45.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_46.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_47.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_49.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_51.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_52.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_53.jpg"></span></p></div></li>
+                        <li><div class="inner"><p class="img"><span><img src="images/partner/logo01_54.jpg"></span></p></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section4 main_sec" data-no="4">
+            <div class="box1">
+                <ul class="main_news sec2 fl_wrap">
+                    <li class="scrollAni moveT">
+                        <a href="#">
+                            <span class="date">2021.00.00</span>
+                            <span class="tit">[전자신문] 코리센, SWA 기술 접목한 차세대 지정맥 알고리즘 KISA 전체인증 획득</span>
+                        <span class="more xi xi-plus-thin"></span>
+                        </a>
+                    </li>
+                    <li class="scrollAni moveT">
+                        <a href="#">
+                            <span class="date">2021.00.00</span>
+                            <span class="tit">[대구일보] 경북교육청정보센터, 정보시스템 보안 강화</span>
+                        <span class="more xi xi-plus-thin"></span>
+                        </a>
+                    </li>
+                    <li class="scrollAni moveT">
+                        <a href="#">
+                            <span class="date">2021.00.00</span>
+                            <span class="tit">[전자신문] 코리센 "지정맥 원천 특허기술 보유…금융권 日제품 선호 아쉬워"</span>
+                        <span class="more xi xi-plus-thin"></span>
+                        </a>
+                    </li>
+                    <li class="scrollAni moveT">
+                        <a href="#">
+                            <span class="date">2021.00.00</span>
+                            <span class="tit">[머니투데이]코리센, 중기 3사와 KT 통합보안망분리 솔루션 '위즈박스' 출시</span>
+                        <span class="more xi xi-plus-thin"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section5 main_sec linkScroll" data-no="5">
+            <div class="box1">
+                <div class="board_st video st2">
+                    <ul class="list fl_wrap">
+                        <li>
+                            <a href="#" class="in">
+                                <p class="resize img s4"><span class="re vm_wrap"><img src="images/main/video1.jpg"></span><span class="layer vm_wrap"><i class="xi vm_tt"></i></span></p>
+                                <dl class="con">
+                                    <dt>[아리랑TV] BizTech KOREA / Hash_Tech (영어방송) 지정맥 Finger Vein 소개동영상</dt>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="in">
+                                <p class="resize img s4"><span class="re vm_wrap"><img src="images/main/video2.jpg"></span><span class="layer vm_wrap"><i class="xi vm_tt"></i></span></p>
+                                <dl class="con">
+                                    <dt>[한국직업방송] 미래직업보고서 드림웍스 - 4차 산업혁명의 열쇠 생체인식기술</dt>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="in">
+                                <p class="resize img s4"><span class="re vm_wrap"><img src="images/main/video3.jpg"></span><span class="layer vm_wrap"><i class="xi vm_tt"></i></span></p>
+                                <dl class="con">
+                                    <dt>[KTV] 다니엘의 더 스마트한 세상 “내 몸이 비밀번호, 생체인식”</dt>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contents end-->
+    <script type="text/javascript">
+        $(window).load(function(){
+        var mainSliderProg = $('.mainProgress');
+        mainSliderProg.circleProgress({
+            startAngle: -Math.PI,
+            value: 0,
+            lineCap: 'butt',
+            fill: {color: '#fff'},
+            emptyFill : "rgba(255,255,255,.2)",
+            size: 70,
+            thickness:3
+        });
+        
+        var mainSlider = new Swiper('.mainSlider', {
+            slidesPerView: 'auto',
+            effect: 'slide',
+            speed: 1000,
+            spaceBetween: 0,
+            freeMode: false,
+            loop: true,
+            loopFillGroupWithBlank: false,
+            centeredSlides: false,
+            autoplay: {
+             delay: 5000,
+             disableOnInteraction: false,
+            },
+            pagination: {
+             el: '.mainSlider-pagination',
+             clickable: false
+            },
+            navigation: {
+            nextEl: '.mainSlider-next',
+            prevEl: '.mainSlider-prev',
+            },
+            on: {
+                slideChange: function(){
+                var rIdx = this.realIndex+1;
+                var len = this.slides.length - this.loopedSlides*2;
+                var pEnd = 1/len*rIdx;
+                mainSliderProg.circleProgress('value', pEnd);
+                }
+            }
+        });
+        
+        var busiSlider = new Swiper('.busiSlider', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+             delay: 15000,
+             disableOnInteraction: false,
+            },
+            pagination: {
+             el: '.busiSlider-pagination',
+             clickable: true
+            },
+            navigation: {
+            nextEl: '.busiSlider-next',
+            prevEl: '.busiSlider-prev',
+            },
+        });
+        
+        });
+        $(".mainSlider-pause").click(function(){
+            $(".mainPauseWrap").addClass("pause");
+            mainSlider.autoplay.stop();
+        });
+        $(".mainSlider-play").click(function(){
+            $(".mainPauseWrap").removeClass("pause");
+            mainSlider.autoplay.start();
+        });
+        function toggleClass(obj,wrap,Class){
+            if(!wrap){
+                var wrap = (".toggleWrap");
+            };
+            if(!Class){
+                var Class = "on";
+            };
+            $(obj).parents(wrap).toggleClass(Class);
+        }
+        
+        
+        //
+        function linkScroll(no){
+            var Y = $(".linkScroll[data-no='"+no+"']").offset().top;
+            var headerH = $("#header").outerHeight();
+            $('body, html').animate({ scrollTop: Y-headerH }, 500);
+        }
+        $(window).scroll(function(){
+            var scrollY = $(window).scrollTop();
+            var winH = $(window).height();
+            var headerH = $("#header").outerHeight();
+            var aniObj = $(".scrollAni");
+            var obj = $(".linkScroll");
+            aniObj.each(function(){
+                var T = $(this).offset().top;
+                var scrollC = scrollY + (winH*.9);
+                if(scrollC > T){
+                    $(this).addClass("on");
+                }
+            });
+            obj.each(function(){
+                var idx = $(this).data("no");
+                var Offset = $(this).offset().top;
+                var VA = scrollY+((winH-headerH)*.2);
+                var H = $(this).outerHeight();
+                if(VA > Offset){
+                    $("#mainNav > li").removeClass("on")
+                    $("#mainNav > li[data-no='"+idx+"']").addClass("on")
+                }
+            })
+            if(scrollY == 0){
+                aniObj.removeClass("on");
+                $("body").removeClass("scroll")
+            }else{
+                $("body").addClass("scroll")
+            }
+        
+        })
+    </script>
+    <!--footer start-->
+    <div id="footer">
+        <div class="siteMap_wrap">
+            <div class="box1">
+                <div class="gnb_wrap">
+                    <!--gnb start-->
+                    <ul class="gnb fl_wrap">
+                        <li class="m_products"><a href="#" class="dp1 va_wrap"><span class="va">제품정보</span></a>
+                            <ul class="dp2">                                        
+                                <li><a href="#" class="vm_wrap"><span class="va">플랫폼</span></a>
+                                    <ul class="dp3">
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">GuardianⅠ</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">Guardian Ⅱ</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">서버방식시스템</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">로컬방식시스템</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">API/AGENT</span></a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="vm_wrap"><span class="va">하드웨어</span></a>
+                                    <ul class="dp3">
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">바이오인식장치</span></a>
+                                            <ul class="dp4">
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">FV-600</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">FV-6000</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">FV-400</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">FV-100P</span></a></li>
+                                                <li><a href="#" class="vm_wrap"><span class="vm_tt">스마트도어폰</span></a></li>
+                                                </ul>
+                                        </li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">구간암호장치</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">스마트락 솔루션</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">스마트 총기함</span></a></li>
+                                    </ul>
+                                </li>
+                                <div class="draw_img"><p class="resize"><span class="re"></span></p></div>
+                            </ul>
+                        </li>
+                        <li class="m_solution"><a href="#" class="dp1 va_wrap"><span class="va">솔루션</span></a>
+                            <ul class="dp2">                                        
+                                <li><a href="#" class="vm_wrap"><span class="va">산업분야</span></a>
+                                    <ul class="dp3">
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">금융</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">국방</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">기반시설</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">의료</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">교육</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">제조/상업</span></a></li>
+                                    </ul>
+                                </li>
+                                <div class="draw_img img1"><p class="resize"><span class="re"></span></p></div>
+                                <li><a href="#" class="vm_wrap"><span class="va">적용분야</span></a>
+                                    <ul class="dp3">
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">PC 보안</span></a>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">금융 인증</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">출입/근태 솔루션</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">지정맥총기관리시스템</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">구간암호 솔루션</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">스마트디지털락 솔루션</span></a></li>
+                                    </ul>
+                                </li>
+                                <div class="draw_img img2"><p class="resize"><span class="re"></span></p></div>
+                            </ul>
+                        </li>
+                        <li class="m_customer"><a href="#" class="dp1 va_wrap"><span class="va">고객지원</span></a>
+                            <ul class="dp2">                                        
+                                <li><a href="#" class="vm_wrap"><span class="va">고객센터</span></a>
+                                    <ul class="dp3">
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">품질 보증 정책</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">FAQ(자주하는질문)</span></a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="vm_wrap"><span class="va">제품정보</span></a>
+                                    <ul class="dp3">
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">사용메뉴얼</span></a>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">펌웨어</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">지정맥 사용방법</span></a></li>
+                                        <li><a href="#" class="vm_wrap"><span class="vm_tt">자료실</span></a></li>
+                                    </ul>
+                                </li>
+                                <div class="draw_img"><p class="resize"><span class="re"></span></p></div>
+                            </ul>
+                        </li>
+                        <li class="m_company"><a href="#" class="dp1 va_wrap"><span class="va">코리센 소개</span></a>
+                            <ul class="dp2">                                        
+                                <li><a href="#" class="vm_wrap"><span class="va">회사소개</span></a></li>
+                                <li><a href="#" class="vm_wrap"><span class="va">보도자료</span></a></li>
+                                <li><a href="#" class="vm_wrap"><span class="va">동영상</span></a></li>
+                                <li><a href="#" class="vm_wrap"><span class="va">이벤트</span></a></li>
+                                <li><a href="#" class="vm_wrap"><span class="va">공시/공고</span></a></li>
+                                <li><a href="#" class="vm_wrap"><span class="va">오시는길</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--gnb end-->
+                </div>
+            </div>
+        </div>
+        <div class="link_wrap">
+            <div class="box1 flex wrap space">
+                <ul class="menu_wrap flex wrap">
+                    <li><a href="#" class="va_wrap"><span class="va tt">개인정보처리방침</span></a></li>
+                    <li><a href="#" class="va_wrap"><span class="va tt">찾아오시는길</span></a></li>
+                    <li><p class="va_wrap foot_tel"><span class="ft1 vm_tt">문의 전화</span><span class="ft2 vm_tt">02-867-0860</span></p></li>
+                </ul>
+                <div class="etc_wrap flex">
+                    <div class="family_wrap toggleWrap">
+                        <a href="javascript:void(0)" title="Family Site 열기" class="family_btn va_wrap" onclick="toggleClass(this)"><span class="va"><i class="tt">Family Site</i><i class="xi xi-angle-down arrow"></i></span></a>
+                        <ul class="family">
+                            <li><a href="#" class="family_btn va_wrap" target="_blank"><span class="va"><i class="tt">RNATECH</i><i class="xi xi-angle-right-min arrow"></i></span></a></li>
+                            <li><a href="#" class="family_btn va_wrap" target="_blank"><span class="va"><i class="tt">Romical</i><i class="xi xi-angle-right-min arrow"></i></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info_wrap">
+            <div class="flex wrap box1">
+                <p class="logo"><img src="images/inc/logo_w.png" alt="<?=$site_name?>" /></p>
+                <ul class="info flex wrap">
+                    <li>(주)코리센</li>
+                    <li>ADD. 서울시 금천구 디지털로9길 68, 501~505호 (가산동, 대륭포스트타워5차)</li>
+                    <li class="copyright">COPYRIGHT(C) KORECEN co.,Ltd. ALL RIGHTS RESERVED.</li>
+                </ul>
+            </div>
+        </div>
+        <a href="javascript:goTop();" class="goTop vm_wrap"><span class="vm_tt"><i class="xi xi-angle-up-thin"></i><i class="tt">TOP</i></span></a></div>
+    </div>
+    <!--footer end-->
+</body>
+</html>

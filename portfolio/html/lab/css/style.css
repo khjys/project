@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:16px}
+body:not(.pop){ display:flex; flex-direction:column; min-height:100%}
+.box0{ margin:0 3%}
+.box1{ width:1200px; margin:0 auto}
+.box2{ margin:0 10%}
+
+.gnb > li.m_hide{ display:none}
+
+#header{ position: fixed; left:0; top:0; width:100%; z-index:1000}
+#header .top_wrap,
+#header .va_wrap{ height:5.5em}
+.headerT{ padding-top:5.5em}
+#header .logo{ position:relative; height:60%; box-sizing:border-box; overflow:hidden}
+#header .logo > a{ position:relative; left:0; top:0; height:100%; transition:.3s}
+#header .logo > a img{ display:block; height:100%}
+#header .gnb_wrap .gnb > li .dp1{ display:block; padding:0 2em; min-width:7.5em; transition:.3s; line-height:6em}
+#header .gnb_wrap .gnb > li .dp1 .va{ font-size:1.313em; font-weight:700;} 
+#header .gnb_wrap .gnb > li:hover .dp1,
+#header .gnb_wrap .gnb > li.on .dp1{ color:#ffda00}
+#header .gnb_wrap .gnb > li .dp2{ display:none}
+
+#header .etc_wrap .all_wrap .all_btn{ display:block; width:4em; text-align:center; position:relative}
+#header .etc_wrap .all_wrap .all_btn .xi{ font-size:2.375em; position:relative; z-index:1}
+#header .etc_wrap .all_wrap .all{ position:fixed; z-index:1; left:0; top:0; width:100%; height:100%; opacity:0; visibility:hidden; transition:.3s}
+#header .etc_wrap .all_wrap .all .wrap_bg{ position:absolute; right:0; top:0; width:100%; height:100%; background:rgba(0,0,0,.7); cursor:pointer}
+#header .etc_wrap .all_wrap .all .wrap_in{ position:absolute; right:0; top:0; width:90%; height:100%; max-width:25em; background:#fff; box-shadow:-5px 0 1em rgba(0,0,0,.5); transform:translateX(100%); transition:.3s}
+#header .etc_wrap .all_wrap .all .all_top{ padding:1em 1em 2em 1em}
+#header .etc_wrap .all_wrap .all .all_top .logo{ text-align:center; margin-top:2em}
+#header .etc_wrap .all_wrap .all .all_top .logo img{ height:3em}
+#header .etc_wrap .all_wrap .all .close_btn{ display:block; margin:0 auto; width:3em; line-height:3em; text-align:center; border-radius:50%; background:#111; color:#fff; transition:.3s}
+#header .etc_wrap .all_wrap .all .close_btn .xi{ font-size:1.5em}
+#header .etc_wrap .all_wrap .all .close_btn:hover{ transform:rotate(90deg)}
+#header .etc_wrap .all_wrap .all .gnb{ display:block}
+#header .etc_wrap .all_wrap .all .gnb a{ height:auto; text-align:left; padding:1em 1.5em; padding-right:3em; position:relative}
+#header .etc_wrap .all_wrap .all .gnb a:after{ font-family:xeicon!important; position:absolute; right:1.5em; top:50%; margin-top:-.75em;}
+#header .etc_wrap .all_wrap .all .gnb > li .dp1{ background:#333; color:#fff; border-top:1px solid rgba(255,255,255,.1); border-bottom:1px solid rgba(0,0,0,.5)}
+#header .etc_wrap .all_wrap .all .gnb > li .dp1:after{content:"\e936"}
+#header .etc_wrap .all_wrap .all .gnb > li.only .dp1:after{ transform:rotate(-90deg)}
+#header .etc_wrap .all_wrap .all .gnb > li .dp1 .va{ font-size:1.125em; font-weight:700}
+#header .etc_wrap .all_wrap .all .gnb > li.on .dp1{ color:#ffda00}
+#header .etc_wrap .all_wrap .all .gnb > li .dp2{ display:none}
+#header .etc_wrap .all_wrap .all .gnb > li.on .dp2{ display:block}
+#header .etc_wrap .all_wrap .all .gnb > li .dp2 > li > a{ background:#fff; height:auto; color:#555; border-bottom:1px solid #ddd}
+#header .etc_wrap .all_wrap .all .gnb > li .dp2 > li > a:after{content:"\e93f"}
+#header .etc_wrap .all_wrap .all .gnb > li .dp2 > li.on > a,
+#header .etc_wrap .all_wrap .all .gnb > li .dp2 > li:hover > a{ background:#f1f1f1; color:#111}
+
+#header .etc_wrap .all_wrap.on .all{opacity:1; visibility: visible}
+#header .etc_wrap .all_wrap.on .all .wrap_in{ transform:translateX(0)}
+
+.sub:not(.cWhite) #header{ background:#fff; box-shadow:0 1px 5px rgba(0,0,0,.3)}
+.sub:not(.cWhite) #header .gnb_wrap .gnb > li .dp1{ color:#999; text-shadow:none}
+.sub:not(.cWhite) #header .gnb_wrap .gnb > li:hover .dp1,
+.sub:not(.cWhite) #header .gnb_wrap .gnb > li.on .dp1{ color:#111; text-shadow:-1px 0px #fff7c7, 1px 0px #fff7c7, 0px -1px #fff7c7, 0px 1px #fff7c7;}
+
+
+
+/**/
+.mainNav{ position:fixed; left:1%; top:0; height:100%; width:2em; z-index:999}
+.mainNav .list{ padding-bottom:2em; margin-bottom:2em; position:relative}
+.mainNav .list > li{ counter-increment: myIndex}
+.mainNav .list > li:before{ content:"0" counter(myIndex); font-weight:700; position:absolute; left:0; bottom:0; display:block; width:100%; text-align:center; opacity:0; transition:.3s}
+.mainNav .list > li > a{ display:block; width:2em; text-align:center}
+.mainNav .list > li.home > a .xi{ margin-bottom:.5em}
+.mainNav .list > li > a .line{ display:block; height:2em; width:2px; background:#111; opacity:.5; margin:0 auto}
+.mainNav .list > li.on:before{ opacity:1}
+.mainNav .list > li.on > a .line,
+.mainNav .list > li:hover > a .line{ opacity:1}
+
+.cWhite #header{ color:#fff}
+.cWhite #header .gnb_wrap .gnb > li .dp1{ text-shadow:none} /*외부광선*/
+.cWhite #header .logo > a{ top:-100%}
+.cWhite .mainNav{ color:#fff}
+.cWhite .mainNav .list > li > a .line{ background:#fff}
+.cWhite .section{ color:#fff}
+
+.scrollDown{ position: absolute; left:50%; bottom:2em; width:5em; padding-top:2em; margin-left:-2.5em; z-index:999; display:flex; animation-name: downAni; animation-duration: 3s; animation-iteration-count: infinite}
+.scrollDown:before,
+.scrollDown:after{ content:""; display:block; width:50%; height:1px; background:#fff}
+.scrollDown:before{ transform:rotate(45deg); transform-origin:right bottom}
+.scrollDown:after{ transform:rotate(-45deg); transform-origin:left bottom}
+@keyframes downAni{
+40% { transform:translateY(0)}
+60% { transform:translateY(1em)}
+80% { transform:translateY(0)}
+}
+
+.section{ position:relative; overflow:hidden; display:flex; align-items:center; justify-content:center; background-position:center; background-repeat:no-repeat}
+.section .wrap_con{ position:relative; text-align:center; width:100%}
+
+
+#vod{position: absolute;top:50%;left:50%;min-width:100%;min-height:100%;width:auto;height:auto;transform:translate(-50%,-50%)}
+
+.vodBtn .btn{ position:absolute; right:3%; bottom:2em; width:4em; line-height:4em; height:4em; border:1px solid #111; text-align:center; font-size:1em}
+.vodBtn .btn:before{ font-size:2.5em}
+.vodBtn .btn.pause:before{content:"\ea3b"}
+.vodBtn .btn.play{ background:#ffda00; color:#111; border-color:transparent; display:none}
+.vodBtn .btn.play:before{content:"\ea3e"}
+.vodBtn.on .btn.play{ display:block}
+.vodBtn.on .btn.pause{ display:none}
+
+.main_tit{ font-size:3.75em; font-weight:700}
+.main_tit2{ font-size:2.25em; font-weight:700}
+.main_tt1{ font-size:1.375em; font-weight:700}
+.main_tt1.st1{ font-weight:500}
+.main_tt2{ font-size:1.25em; font-weight:300; line-height:1.7}
+.main_tt3{ text-align:center; }
+.main_tt3 > i{ display:inline-block; padding:.5em 2em; color:#ffda00; background:#111;; font-weight:700; font-size:1.25em}
+.main_tt3.st1{ font-size:1.25em;}
+.main_tt3.st1 > i{ color:#111; background:#ffda00; display:inline-block; border-radius:5em}
+.main_tt4{ font-size:1.875em; font-weight:700}
+
+
+.page_sec{ margin-top:4em}
+.page_sec05{ margin-top:.5em}
+.page_sec1{ margin-top:1em}
+.page_sec2{ margin-top:2em}
+.page_sec3{ margin-top:3em}
+.page_sec5{ margin-top:5em}
+
+.page_tit .t2{ font-weight:500; font-size:1.5em; color:#333; margin-bottom:.5em; position:relative}
+
+.section.vod{ background:#fff}
+.section.company .bg{ position:absolute; left:-10%; top:-15%; width:120%; height:30%; background-color:#efefef; transform:rotate(7deg); background-image:url(../images/main/bg1.jpg); background-size:cover}
+.section.company .bg.on{ height:60%}
+.section.company .logo img{ height:8.5em}
+
+.section.studio{ background-image:url(../images/main/studio_bg.jpg)}
+.section.studio .icon{ margin-top:2em}
+.section.studio .icon > li{ width:25%; cursor:pointer}
+.section.studio .icon > li .svg_wrap{ border:1px solid rgba(255,255,255,.2); position:relative; height:0; padding-bottom:66.66%; transition:.3s}
+.section.studio .icon > li .svg_wrap svg{ position:absolute; left:0; top:0; width:100%; height:100%}
+.section.studio .icon > li .tit{ font-size:1.375em; font-weight:700; padding:.5em 0}
+.section.studio .icon > li:hover .svg_wrap{ border-color:#111; background:rgba(0,0,0,.5); z-index:1}
+.section.studio .icon > li:hover .svg_wrap path{ stroke:#ffda00}
+.section.studio .icon > li:hover .tit{ color:#ffda00; background:#111}
+
+
+
+/**/
+.section.studio .icon_wrap{ padding:1.5em 0; font-size:1em;}
+.section.studio .icon_wrap .icon_list{ margin:0 -1px -1px 0;}
+.section.studio .icon_wrap .icon_list > li{ width:25%;}
+.section.studio .icon_wrap .icon_list > li .in{ position:relative; margin:0 1px 1px 0; border:1px solid rgba(255,255,255,.2); overflow:hidden; display:block}
+.section.studio .icon_wrap .icon_list > li .resize{ padding-bottom:66.66%;}
+.section.studio .icon_wrap .icon_list > li .img img{ width:100%; height:100%;}
+.section.studio .icon_wrap .icon_list > li .con{ position:relative; padding:1.2em;}
+.section.studio .icon_wrap .icon_list > li .con > dt{ color:#fff; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; font-size:1.375em}
+.section.studio .icon_wrap .icon_list > li .con .txt{ margin-top:1em; font-size:.813em; color:#72727d; letter-spacing:0;}
+.section.studio .icon_wrap .icon_list > li .con .bd_date{ margin-right:.2em;}
+.section.studio .icon_wrap .icon_list > li .con .more{ position:absolute; right:.8em; bottom:.8em; font-size:1.125em; color:#3c3c3d;}
+.section.studio .icon_wrap .icon_list > li .layer{ position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.6); opacity:0; visibility:hidden; transition:.3s;}
+.xi.bd_plus:before{ content:"\e980";}
+/*.section.studio .icon_wrap .icon_list > li .layer .xi{ font-size:2.125em; color:#fff; width:1.5em; line-height:1.5em; background:#fcab08; border-radius:50%; margin-top:1em; transition:.3s;}
+.section.studio .icon_wrap .icon_list > li .layer .xi:before{ content:"\e97a";}*/
+
+.section.studio .icon_wrap .icon_list > li .layer .xi{ font-size:2.125em; color:#fff; width:1.5em; line-height:1.5em; background:#009944; border-radius:50%; margin-top:1em; transition:.3s;}
+.section.studio .icon_wrap .icon_list > li .layer .xi:before{ content:"\eb7c";}
+.section.studio .icon_wrap .icon_list > li .layer .tt{ display:block; margin-top:1em; color:#fff; line-height:1.4;}
+
+.section.studio .icon_wrap .icon_list > li:hover .in{ border-color:#333;}
+.section.studio .icon_wrap .icon_list > li:hover .layer{ opacity:1; visibility:visible;}
+.section.studio .icon_wrap .icon_list > li:hover .layer .xi{ margin-top:0;}
+.section.studio .icon_wrap .icon_list .resize .svg{ left:0;}
+
+.section.studio .vm_wrap{ display:block; text-align:center; white-space: nowrap}
+.section.studio .vm_wrap > img{ width:40% !important}
+.section.studio .vm_wrap:before{ content:""; display:inline-block; *display:inline; zoom:1; vertical-align:middle; width:0; height:100%}
+.section.studio .vm_tt{display:inline-block; *display:inline; zoom:1; vertical-align:middle; max-width:100%; height:auto; white-space:normal; font-weight:500}
+.section.studio .vm_wrap img{vertical-align:middle; display:inline-block; *display:inline; zoom:1; max-width:100%; max-height:100%}
+.section.studio .vm_wrap .tit{ position:absolute; bottom:0; display:block; width:100%; left:0; font-size:1.25em; background:#111; color:#ffda00; padding:.5em 0; font-size:1.375em; font-weight:500}
+
+
+
+
+.section.client.fp-auto-height .main_tit{ padding-top:3em}
+/*.section.client .list{ margin-top:2em}*/
+.section.client .wrap_con{ height:100%;}
+.section.client .wrap_con_top{ flex: 1 1 auto;}
+.section.client .top_in{ flex:1;}
+.section.client .list > li{ width:20%}
+.section.client .list > li > a{ background:#fff}
+.section.client .list > li > a .re{ box-sizing:border-box; /*padding:1em*/}
+.section.client .list > li > .resize{ padding-bottom:88.66%}
+.section.client .list > li > a .layer{ background:rgba(0,0,0,.9); color:#fff; opacity:0; transition:.3s; display:none}
+.section.client .list > li > a .layer .t1{ font-weight:700; font-size:1.25em; color:#ffda00}
+.section.client .list > li > a:hover .layer{ opacity:1}
+.mbar{ padding-top:1em; color:#ffda00; display:none}
+
+.section.lab{ align-items:flex-end}
+.section.lab .list{ margin:1em 0 0 -2em}
+.section.lab .list > li{ width:33.33%}
+.section.lab .list > li > a{ display:block; margin:2em 0 0 2em; position:relative}
+.section.lab .list > li > a .img_wrap{ display:block; position:relative; height:calc(100vh - 15em)}
+.section.lab .list > li > a .img_wrap .img{ position:absolute; left:0; top:0; width:100%; height:100%}
+.section.lab .list > li > a .tit_wrap{ position:absolute; right:1em; top:1em}
+.section.lab .list > li > a .tit_wrap .tit{ font-weight:700; font-size:5em; line-height:1; color:#fff}
+.section.lab .list > li > a .tit_wrap .tit:after{ content:"LAB"; font-size:.5em; margin-left:.25em}
+.section.lab .list > li:nth-child(2n-1) > a{ transform:translateY(-5em)}
+.section.lab .list > li:nth-child(2n-1) > a .tit_wrap{ top:auto; bottom:1em}
+.section.labD .img_wrap{ width:50%; height:calc(100vh - 5.5em); position:relative}
+.section.labD .con_wrap{ width:50%; box-sizing:border-box; padding:0 7em}
+.section.labD .swiper-container,
+.section.labD .swiper-container .el{ height:100%}
+.section.labD .list1{ margin:0 0 0 -1em}
+.section.labD .list1 > li{ width:25%}
+.section.labD .list1 > li .in{ position:relative; height:0; padding-bottom:60%; border:1px solid #ddd; margin:1em 0 0 1em}
+.section.labD .list1.s1 > li .in{ padding-bottom:100%}
+.section.labD .list1 > li .in .tt{ position:absolute; left:0; top:0; width:100%; height:100%; padding:1em; box-sizing:border-box; display:flex; justify-content:center; align-items:center}
+.section.labD .list2{ background:#f5f5f5; margin-top:2em; padding:1em 2em; text-align:left; font-size:.875em; min-height:10em}
+.section.labD .list2 > li .in{ position:relative; padding-left:.75em; margin-top:1em}
+.section.labD .list2 > li .in:before{ content:""; position:absolute; left:0; top:.625em; width:.25em; height:.25em; background:#111}
+.section.labD .tit_wrap{ text-align:left}
+.section.labD .tit_wrap > *{ vertical-align: baseline}
+.section.labD .tit_wrap .t1{ font-weight:700; font-size:5em;}
+.section.labD .tit_wrap .t2{ font-size:2.5em; font-weight:300; margin-left:-.063em}
+.section.labD .tit_wrap .t3{ font-weight:700; font-size:4em; margin-left:.375em}
+.section.labD .more{ font-size:2em; margin-bottom:.25em; color:#aaa}
+.section.labD .more .xi:before{content:"\e916"}
+.section.labD .more:hover{ color:#ffda00; transform:rotate(180deg); transition:.3s}
+.section.labD .link_vod{ width:12em; margin-left:auto; margin-top:1em; border:.25em solid #ffda00}
+.section.labD .link_vod .btn{ display:flex !important; justify-content:center; align-items:center; color:#fff}
+.section.labD .link_vod .btn .bg:after{ content:""; position:absolute; left:0; top:0; width:100%; height:100%; background:#000; opacity:.3}
+.section.labD .link_vod .btn .con .tt:before{ content:"LAB 촬영영상"; font-size:.938em}
+.section.labD .link_vod .btn .con .xi:before{ content:"\ea40"; font-size:1.75em}
+.section.labD .labSlide-btn{ position:absolute; right:0; top:0; width:5em; z-index:10; line-height:5em; text-align:center; background:#f5f5f5; cursor:pointer; transition:.3s}
+.section.labD .labSlide-btn .xi{ font-size:2em}
+.section.labD .labSlide-btn.labSlide-next{ margin-right:-5em}
+.section.labD .labSlide-btn:hover{ background:rgba(0,0,0,.5); color:#fff}
+.section.labD.odd .img_wrap{ order:1}
+.section.labD.odd .labSlide-btn{ left:0}
+.section.labD.odd .labSlide-btn.labSlide-prev{ margin-left:-5em}
+
+
+.section.footer{ color:#fff}
+#footer{ color:#fff; background:#222}
+#footer .logo_wrap{ padding:0}
+#footer .logo_wrap .box1{ position:relative}
+#footer .logo_wrap .box1 .logo{ position:absolute; right:0; width:9em; top:4.5em}
+
+#footer{ margin-top:auto}
+#footer .logo_wrap{ padding:2em 0}
+#footer .logo_wrap .logo{ height:6em}
+
+#footer .cs_wrap{ text-align:left; width:50%}
+#footer .cs_wrap .bank{ padding-right:2em}
+#footer .cs_wrap .wrap_in.w1{ width:29%}
+#footer .cs_wrap .wrap_in.w2{ width:34%}
+#footer .cs_wrap .cs_tit{ font-size:1.125em; font-weight:500; padding-bottom:.5em; color:#ddd}
+#footer .cs_wrap .cs_tit .icon{ margin-right:.25em}
+#footer .cs_wrap .cs_con{ padding:0 1.625em}
+#footer .cs_wrap .cs_con .t1{ font-size:.938em; opacity:.6; font-weight:300; line-height:1.8}
+#footer .cs_wrap .cs_con .t2{ font-size:.813em; opacity:.6; font-weight:300; letter-spacing:0}
+#footer .cs_wrap .cs_con .no1{ font-weight:700; font-size:1.625em; line-height:2; margin-top:-.5em}
+#footer .cs_wrap .cs_con .no2{ font-weight:500; font-size:1.5em; opacity:.6; line-height:2}
+#footer .cs_wrap .cs_con .more{ padding:.375em 1.5em; border:1px solid #fff; font-size:.813em; opacity:.5; transition:.3s}
+#footer .cs_wrap .cs_con .more .xi{ margin-left:1em}
+#footer .cs_wrap .cs_con .more:hover{ opacity:1}
+#footer .cs_wrap .cs_con .link{}
+#footer .cs_wrap .cs_con .link > li{ width:32%}
+#footer .cs_wrap .cs_con .link > li > a{ display:block; position:relative; height:100%; box-sizing:border-box; border:1px solid #fff; padding:.5em; text-align:center; opacity:.5; transition:.3s}
+#footer .cs_wrap .cs_con .link > li > a .icon{ display:block; line-height:1em; height:1em; font-size:2em}
+#footer .cs_wrap .cs_con .link > li > a .tt{ font-size:.875em}
+#footer .cs_wrap .cs_con .link > li > a:hover{ opacity:1}
+
+#footer .menu_wrap{ border-bottom:1px solid rgba(255,255,255,.1);}
+#footer .menu_wrap .menu > li > a{ display:block; position:relative; font-size:.875em; padding:.5em 1.5em; opacity:.7; transition:.3s}
+#footer .menu_wrap .menu > li > a:before{ content:""; position:absolute; right:0; top:50%; width:.5em; height:.5em; margin-top:-.25em; background:#fff; border-radius:50%; font-size:.5em}
+#footer .menu_wrap .menu > li:first-child > a{ padding-left:0}
+#footer .menu_wrap .menu > li:last-child > a:before{ display:none}
+#footer .menu_wrap .menu > li > a:hover{ text-decoration:underline}
+#footer .menu_wrap .sns > li > a{ display:block; width:8em; line-height:3em; text-align:center; opacity:.5; transition:.3s}
+#footer .menu_wrap .sns > li > a .tt{ display:inline-block; line-height:3em; text-transform:uppercase; letter-spacing:0; font-size:.750em}
+#footer .menu_wrap .sns > li > a .xi{ font-size:2em; display:inline-block; margin-right:5px}
+#footer .menu_wrap .sns > li > a:hover{ opacity:1}
+#footer .gotop{ position:fixed; z-index:100; right:2em; bottom:1em; width:3.5em; line-height:3.5em; background:rgba(0,0,0,.3); color:#fff; text-align:center; transform:translateY(5em); transition:.3s; border-radius:50%}
+.main #footer .gotop{ display:none}
+/*#footer .gotop:after{ content:""; position:absolute; left:0; top:0; width:100%; height:100%; border:.25em solid #111; box-sizing:border-box; opacity:0; transition:.3s}*/
+#footer .gotop .xi{ font-size:1.750em}
+#footer .gotop:hover{ background:#ffda00; color:#222}
+/*#footer .gotop:hover:after{ opacity:1}*/
+.scroll #footer .gotop{transform:translateY(0)}
+
+#footer .copy_tit{ width:100%; display:block; text-transform:uppercase; font-size:1.125em; padding-bottom:20px; font-weight:500; padding:0 0 .5em 0}
+#footer .info_wrap{ padding:1em 0 1em 0; text-align:left}
+#footer .info_wrap .info{ width:45%; font-weight:300; border-right:1px solid rgba(255,255,255,.1)}
+#footer .info_wrap .info > li{ margin-right:2em; margin-bottom:.3em; font-size:.875em; opacity:.5; letter-spacing:0}
+#footer .info_wrap .info > li.copyright{ width:100%; margin-top:1em; font-size:.813em; opacity:.2; letter-spacing:0; text-transform:uppercase}

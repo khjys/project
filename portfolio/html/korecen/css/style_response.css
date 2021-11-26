@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{}
+.box1{}
+
+
+
+@media screen and (max-width:1280px){
+.PC{ display:none !important}
+.PHONE{ display:block !important}
+	
+.box1,
+.box2{ max-width:94%}
+.mainNav_wrap{ top:auto; bottom:0; width:100%; height:auto}
+.mainNav_wrap > .va{ display:block}
+#mainNav{ display:flex;}
+#mainNav > li{ flex:1 1 10%}
+#mainNav > li > a{ background:rgba(0,0,0,.5); line-height:4em; padding:0 1em; position:relative; text-align:center}
+#mainNav > li > a .tt{ opacity:.5; visibility: visible; color:#fff !important; font-size:.875em}
+#mainNav > li > a .line{ position:absolute; left:0; top:0; width:0; height:.125em; margin:0; background:#000; opacity:1}
+#mainNav > li:hover > a,
+#mainNav > li.on > a{ background:rgba(0,0,0,.7)}
+#mainNav > li:hover > a .tt,
+#mainNav > li.on > a .tt{ opacity:1}
+#mainNav > li:hover > a .line,
+#mainNav > li.on > a .line{ width:100%}
+
+.main #footer{ padding-bottom:3em}
+
+.mainControl,
+#scrollAni{ bottom:5em}
+}
+
+@media screen and (max-width:1024px){
+body{ font-size:13px}
+#header .gnb_wrap{ display:none}
+#header .etc_wrap .all_wrap .all{ display:block}
+#header .etc_wrap .all_wrap .all .all_logo{ text-align:left; padding:1em 0}
+#header .etc_wrap .all_wrap .all .all_logo img{ height:3.5em}
+#header .etc_wrap .all_wrap .all .gnb{ flex-wrap:wrap; font-size:1.125em}
+#header .etc_wrap .all_wrap .all .gnb > li{ flex:1 1 100%}
+#header .etc_wrap .all_wrap .all .gnb > li .dp1{ text-align:left; height:auto; padding:1em .75em}
+#header .etc_wrap .all_wrap .all .gnb > li .dp3 > li > a{ padding-top:.5em; padding-bottom:.5em}
+
+.section .wrap_con{ padding-bottom:7vh}
+.main_technology{ margin:-3em 0 0 -3em}
+.main_technology > li > a{ margin:3em 0 0 3em}
+
+.mainSlider .slogan{ font-size:.875em; top:25vh}
+.mainSlider .slogan .t1{ line-height:1.1; letter-spacing:-1px}
+
+.mainProgress canvas{ height:50px !important; width:50px !important}
+.mainControl .mainPauseWrap{ width:50px}
+.mainControl .mainPauseWrap .mainSlider-btn{ line-height:50px; width:50px}
+
+.mainPartnership_wrap{ padding:0 2em}
+.prev.sliderBtnSt{ left:-1em}
+.next.sliderBtnSt{ right:0}
+.sliderBtnSt{ opacity:.3}
+
+.main_sec.section2 .swiper-container{ height:auto; background:none}
+.busiSlider .el{ height:450px}
+}
+@media screen and (max-width:900px){
+body{ font-size:11px}
+
+.headerH, #header .va_wrap{ height:60px}
+#header .etc_wrap .all_wrap{}
+#header .etc_wrap .all_wrap .all .all_logo img{}
+
+
+
+#header .logo > a{ height:70%; top:15%}
+#header .etc_wrap .lang{ margin-right:1em}
+#footer .info_wrap .logo img{ height:4em}
+
+#contents .subtop_wrap .sub_visual{ font-size:.75em}
+#contents .sub_nav > li.tt{ display:none}
+#contents .sub_nav > li.tt:last-child{ display:block; flex:1 1 auto}
+#contents .sub_nav > li.tt .navBtn{ width:100%; box-sizing:border-box}
+ 
+.dp1_ir #contents .sub_slogan{ font-size:1.5em}
+
+.main_tit{ font-size:.875em}
+.main_tit .t1{ margin-bottom:.2em}
+.main_tit .t2{ font-size:1.250em}
+.main_tit .t2 br{ display:none}
+.main_con{ padding-top:2em}
+
+
+
+
+
+}
+
+
+@media screen and (max-width:768px){
+body{ font-size:11px}
+
+#header .etc_wrap .head_btn{ display:none}
+.mainSlider .el{ height:66vh;}
+.mainSlider .el .bg{ background-position:70% center}
+.mainSlider .el.swiper-slide-active .slogan .moreBtn{ width:80px; height:30px; line-height:30px}
+.mainSlider .slogan{ top:13vh}
+.mainControl, #scrollAni{ bottom:1em}
+.mainSlider .slogan .moreBtn{ width:120px; height:38px; line-height:38px;}
+.mainSlider .slogan .t2{ display:none}
+.mainSlider .slogan .line{ display:none}
+
+.mainCsBtn{ right:1em; bottom:8em;}
+#footer .goTop{ right:1em; bottom:1em}
+.scroll #footer .goTop{ right:1em; bottom:1em}
+
+/*MAIN*/
+.main_tit .t1{ font-size:2.125em}
+.main_sec.section1,
+.main_sec.section3{ padding:3em 0}
+.prod_tab{ margin:1em 0}
+.prod_tab ul li .icon{ display:none}
+.prod_tab ul li{ margin:0 10px}
+.prod_tab ul li .tt{ font-size:1em; color:#888}
+.prod_list_wrap .list > li{ width:50%}
+.prod_list_wrap .list > li .prod_st .con_wrap{ font-size:.750em; padding:0}
+.main_sec.section2 .swiper-container{ background:none; height:350px; width:90%}
+.main_sec.section2 .swiper-slide-wrap > img,
+.busiSlider .el{ height:350px}
+.main_sec.section2{ padding:5em 0 5em 0}
+.main_sec.section2 .slogan{ top:8em}
+.main_sec.section2 .slogan .t1{ width:90%; font-size:1.125em}
+.main_sec.section2 .moreBtn{ height:35px; line-height:35px; width:120px}
+.busiControl{ display:none}
+.main_sec.section3 .partner li{ width:33.33%;}
+.main_sec.section3 .partner li,
+.main_sec.section3 .partner li .inner .img{}
+.main_sec.section4 .main_news li{ width:100% !important}
+.main_sec.section4 .main_news > li > a{ padding:1em 2em}
+.main_sec.section4 .main_news > li > a .tit{ width:80%}
+.main_sec.section5 .board_st.video .list > li{ width:100%}
+
+#footer .siteMap_wrap{ display:none}
+#footer .link_wrap .menu_wrap{ margin-left:0}
+#footer .link_wrap .menu_wrap li:nth-child(3){ display:none}
+#footer .etc_wrap{ display:none}
+
+
+/*SUB*/
+.bg_fix{ background-position:25% center;}
+#contents .sub_nav_wrap{ display:none}
+#contents .subtop_wrap .sub_visual{ height:600px}
+.dp1_company #contents .subtop_wrap .sub_visual,
+.dp1_customer #contents .subtop_wrap .sub_visual{ height:300px}
+#contents .dp4_menu{ position:relative !important}
+#contents .dp4_menu .inq_btn1{ display:none}
+#contents .dp4_menu .dp4_tab li{ padding-right:.5em; margin-right:.5em}
+#contents .dp4_menu .dp4_tab li:after{ opacity:0}
+#contents .sub_slogan .t2{ padding-top:1em}
+.dp1_products.dp2_platform #contents .sub_slogan .in, .dp1_products.dp2_hardware #contents .sub_slogan .in{ width:36%}
+.dp1_products.dp2_platform #contents .sub_slogan .t1, .dp1_products.dp2_hardware #contents .sub_slogan .t1{ font-size:2.250em}
+.dp1_products.dp2_platform #contents .sub_slogan .t2, .dp1_products.dp2_hardware #contents .sub_slogan .t2{ font-size:1.375em}
+.dp1_solution #contents .sub_slogan .t1{ font-size:3em}
+.load #contents .sub_slogan{ padding-top:8em}
+
+
+.page_tit .tt{ font-size:1.750em}
+.plat_list1 .icon{ height:100px; line-height:100px; width:20%}
+.plat_list1 dl{ height:auto}
+.plat_list1 dl dt{ line-height:1.8}
+.plat_list2 li{ width:100%;}
+.plat_list2 .list_in{ padding-top:2em}
+.index_tx{}
+.imgBox{ overflow:hidden; overflow-x:scroll}
+.imgBox > img{ max-width:inherit; height:400px}
+.page_con .view_customer .inner{}
+.page_con .view_customer .inner a .tit{ font-size:1.570em}
+.page_con .view_customer .inner a .txt{ padding:1em}
+.index_list3{ margin:0}
+.index_list3 li{ width:100%; margin:0 0 5px 0}
+.index_list3 img{}
+.index_con > div{ width:100%}
+.index_con > div h2{ width:60%; height:50px; line-height:50px}
+.index_con .index_in{ height:auto; margin-bottom:1em}
+.index_con .index_in > ul > li span > img{ width:50%}
+.page_con .con01 > ul > li{ width:100% !important}
+.page_con .con01.st2 > ul.sec4 > li{ width:50% !important}
+.page_con .con01.st2 > ul > li .tt{ font-size:.875em; width:100%; text-align:center}
+.page_con .con01.st2 > ul{ margin-left:-10px}
+.page_con .con01.st2 > ul > li div{ margin-left:10px}
+.page_con .con01.st2 > ul > li .icon{ background:none; width:100%; margin:0 auto}
+.page_con .con01 > ul > li div{ overflow:hidden}
+.page_con .con01 > ul > li div > *{ float:left}
+.page_con .con01 > ul > li .icon{ width:auto; height:auto; margin:0 1em 0 1em}
+.page_con .con01 > ul > li .t1{ font-size:.875em; text-align:left; padding-top:10px}
+.page_con .con01 > ul > li .t2{ font-size:.875em; padding-top:10px; width:50%; text-align:left}
+.page_con .con01 > ul > li .tt{ font-size:.875em; font-weight:400; min-height:auto; padding-top:10px; text-align:left}
+.page_con .middle_con{ background-position:60% center}
+.page_con .middle_con .txt_wrap{ width:100%; padding-top:2em}
+.page_con .middle_con p.t1{ font-size:1.570em}
+
+.index_list1{ width:100%}
+.index_list1 li{ font-size:1.250em}
+.index_list2 li{ flex:0 1 50%}
+.index_list2 li dl dd p{ font-size:1.250em}
+.index_list2 li dl{ padding:0}
+.index_box{ padding:1.5em}
+.index_con .index_list{ margin-bottom:1em; height:auto; padding-top:60px;}
+.index_con .index_list.st1 { margin:0 0 1em 0; padding:2.5em;}
+.index_con .index_list.st1 > p{ font-size:1.250em}
+.page_tit.dp2 .tt{ padding:0;}
+.page_tit.dp2:before{ display:none}
+.index_list3 li p{ font-size:1.250em}
+.board_st.gallery .list > li{ width:50%}
+
+.module_visual{ height:600px; background-size:cover}
+.module_slogan .t1{ font-size:2em}
+.module_slogan .t2{ font-size:1.250em}
+.page_con .con02 > ul > li .icon{ opacity:1; background:none}
+.page_con .con02 > ul > li .icon > img{ width:50%}
+.page_module .page_con .con02 .di_wrap > li{ float:left; display:block; width:25% !important}
+.page_con .con02 > ul > li .tt{ font-size:1em}
+.table_wrap{ overflow-x:scroll}
+
+
+
+.con_list01 dl{ flex:1 0 100%; height:auto; margin:0 0 1em 0}
+.con_list01.st2 dl{ flex:1 0 100%; height:auto; margin:0 0 1em 0}
+.con_list01.st1 dl{ flex:1 0 100%; height:auto}
+.con_list01 dl{ padding:1.5em}
+.con_list01 .dot p{ font-size:1.250em}
+.con_list04 dl{ padding:2em 1.5em; width:100%; height:auto}
+.dot p{ font-size:1.250em}
+.dot p:after{ top:7px}
+
+::-webkit-scrollbar{ width:.33vw; height:1vw;}
+::-webkit-scrollbar-thumb{ background:#1c2c59}
+
+.con_tit{ padding:0 0 10px 0}
+.con_tit.mobile .tt:before, .con_tit.mobile .tt:after{ opacity:0}
+.con_tit .tt{ font-size:1.570em;}
+.con_tit .tt:before, .con_tit .tt:after{ width:15%}
+.page_tit .t2{ font-size:1.250em; padding:0 1em 3em 1em}
+.subpage_tit .tit{ font-size:1.750em}
+.page_tit2 .tt{ font-size:1.375em}
+
+
+.auth_con2 .specIn .specImg{ display:none}
+.auth_con2 .specIn .specTxt{ border-left:1px solid #ddd; width:100%}
+.specIn dl{ height:auto}
+.specIn .fl{ width:100%}
+.specIn dt{ display:none}
+.specIn dd{ display:inherit; width:100%; padding:1.5em}
+.specIn dd h6{ margin:0; font-size:1.375em; margin-bottom:10px}
+.specIn .dot p{ font-size:1.250em}
+
+
+.page_gall_wrap .board_st.gallery .list > li{ width:50%}
+.check_list ul{ padding:0 5%}
+.check_list ul li span{ width:90%}
+
+.tech_box{ padding:2em}
+.prod_con_wrap .list_wrap .list .pro_info .tx_w{ padding:0}
+.prod_con_wrap .list_wrap .list .t_xi{ display:none}
+.page_txt.icon2{ padding-left:8em}
+.page_txt .t3{ font-size:1.750em}
+.faq_board .aa .tt,
+.faq_board .qq .tt{ font-size:1.250em}
+.board_paging3 button{ min-width:30px; height:30px; line-height:30px; font-size:.750rem}
+.board_st.manual .list .txt_wrap{ padding:0 1em}
+.board_st.manual .list .downbtn_wrap .in{ width:6em}
+.board_st.news .list .date_wrap .t1{ font-size:1.750em}
+
+.page_greeting .greeting_tit{ font-size:2.250em}
+.page_greeting .greeting_tit:after{ height:30px}
+.area-section1 .headline > span:first-child{ font-size:1.250em; margin-left:0; float:none; display:block}
+.area-section1{ padding:0}
+.page_greeting .con_wrap .list > li{ width:50%}
+.page_greeting .con_wrap .list > li .inner{ border:none}
+.page_greeting .con_wrap .list .icon img{ max-height:80%}
+.page_greeting .con_wrap .list .txt{ font-size:1em}
+.page_greeting .con_wrap .list .tit{ font-size:1.570em}
+.page_greeting .page_tit .tt{ font-size:2em}
+.board_st.event .list > li,
+.board_st.video .list > li{ width:100%}
+.location_wrap .map_info1 .t1 span{ line-height:1; display:block; padding:.5em 0}
+.root_daum_roughmap .wrap_map{ height:300px !important}
+.location_wrap .map_info2 > li .info{ margin:0}
+.location_wrap .map_info2 > li h3{ float:none; display:block}
+.contact_wrap ul li:first-child{ margin-bottom:5px}
+
+.page_platform1 .con02{ margin-bottom:5em; display:inline-block}
+}
+
+
+@media screen and (max-width:520px){
+
+.mainSlider .slogan .t1{ font-size:2.570em}
+.mainSlider .slogan{}
+
+#footer .link_wrap{ padding:0}
+#footer .menu_wrap{ width:100%; padding:1em 0}
+#footer .info_wrap > .flex{ justify-content:center}
+#footer .info_wrap .logo{ width:100%;}
+#footer .info_wrap .logo img{ height:2.5em}
+#footer .info_wrap .info{ width:100%; margin-top:2em; }
+#footer .info_wrap .info > li{ margin:0 1em; line-height:2}
+#footer .info_wrap .info > li.copyright{ text-align:center}
+#footer .link_wrap .menu_wrap > li > a{ padding:0 .5em}
+
+
+.module_visual{ height:300px;}
+.index_list2 li{ flex:0 1 100%}
+.page_module .page_con .con02 .di_wrap > li{ width:50% !important}
+#contents .subtop_wrap .sub_visual{ height:300px}
+.imgBox > img{ height:300px}
+
+.page_con .middle_con.md_bg02{ background-image:url(../images/sub/bg_img/hardware_bg1_m.jpg); background-size:cover; background-position:right top}
+.page_con .middle_con.md_bg06{ background-image:url(../images/sub/bg_img/hardware_bg5_m.jpg); background-size:cover; background-postiion:right top}
+.page_con .middle_con.md_bg03{ background-image:url(../images/sub/bg_img/hardware_bg3_m.jpg); background-size:cover; background-position:left top}
+.page_con .middle_con.md_bg04{ background-image:url(../images/sub/bg_img/hardware_bg4_m.jpg); background-size:cover; background-position:right top}
+.page_con .middle_con.md_bg02_3{ background-image:url(../images/sub/bg_img/hardware_bg1_3_m.jpg); background-size:cover; background-position:right top}
+.page_con .middle_con.md_bg02_2{ background-image:url(../images/sub/bg_img/hardware_bg1_2_m.jpg); background-size:cover; backgrond-position:right top}
+.page_con .middle_con.md_bg02_4{ background-image:url(../images/sub/bg_img/hardware_bg1_4_m.jpg); background-size:cover; background-position:right top}
+.page_con .middle_con.md_bg01{ background-image:url(../images/sub/solution/tech_bg01_m.jpg); background-size:cover; background-position:right top;}
+.page_con .middle_con.md_bg01_2{ background-image:url(../images/sub/solution/tech_bg02_m.jpg); background-size:cover; background-position:right top;}
+.page_con .middle_con.md_bg01_3{ background-image:url(../images/sub/solution/tech_bg03_m.jpg); background-size:cover; background-position:right top;}
+.page_con .middle_con.md_bg01_5{ background-image:url(../images/sub/solution/tech_bg05_m.jpg); background-size:cover; background-position:left top;}
+
+.con_list02{ padding-top:2em; padding-right:0; padding-left:1em}
+.con_list02.st dt,
+.con_list02 dt{ font-size:1.570em}
+.con_list02 dt.t1{ width:100%}
+
+.use_detail li{ flex:1 0 50%}
+.use_wrap dd{ padding-left:0; width:100%}
+.use_wrap dt{ width:50%}
+
+}
+@media screen and (max-width:480px){
+.main_technology{ margin:-1em 0 0 -1em}
+.main_technology > li{ width:100%}
+.main_technology > li > a{ margin:1em 0 0 1em; display:flex; align-items:center}
+.main_technology > li > a .img{ flex:0 0 auto; width:25%; padding-bottom:25%; margin-right:1.5em}
+.main_technology > li > a .con{ padding:0; text-align:left}
+.main_board > li > a{ flex-direction:column-reverse; align-items:flex-start !important; height:auto; padding:1em; position:relative}
+.main_board > li > a .date{ display:block; margin-top:.75em; text-align:left; width:100%}
+.main_board > li > a .date .t2{ display:none}
+.main_board > li > a .con{ max-width:100%; flex:0 0 auto; margin:0}
+.main_board > li > a .more{ position:absolute; right:.5em; bottom:.5em}
+.main_board > li > a .more .xi{ font-size:1em}
+.main_link{ padding-bottom:35% !important}
+
+
+
+}
+
+
+
+
+@media screen and (max-height: 768px) and (orientation: landscape){
+}

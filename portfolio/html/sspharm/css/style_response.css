@@ -1,0 +1,445 @@
+@charset "utf-8";
+/* CSS Document */
+/*국문*/
+body{}
+.box1{}
+
+@media screen and (max-width:1600px){
+#header .gnb_wrap{ display:none}
+}
+
+@media screen and (max-width:1400px){
+	
+#header .gnb_wrap{ display:none}
+#contents .subtop_wrap .sub_visual .wrap_in{ width:auto}
+#contents .subtop_wrap .sub_visual .wrap_in .sub_menu{ overflow-x:scroll}	
+
+}
+
+
+@media screen and (max-width:1280px){
+.box1{ max-width:94%}
+
+.mainNav_wrap{ top:auto; bottom:0; width:100%; height:auto}
+.mainNav_wrap > .va{ display:block}
+#mainNav{ display:flex;}
+#mainNav > li{ flex:1 1 10%}
+#mainNav > li > a{ background:rgba(0,0,0,.5); line-height:4em; padding:0 1em; position:relative; text-align:center}
+#mainNav > li > a .tt{ opacity:.5; visibility: visible; color:#fff !important; font-size:.875em}
+#mainNav > li > a .line{ position:absolute; left:0; top:0; width:0; height:.125em; margin:0; background:#000; opacity:1}
+#mainNav > li:hover > a,
+#mainNav > li.on > a{ background:rgba(0,0,0,.7)}
+#mainNav > li:hover > a .tt,
+#mainNav > li.on > a .tt{ opacity:1}
+#mainNav > li:hover > a .line,
+#mainNav > li.on > a .line{ width:100%}
+.main #footer{ padding-bottom:3em}
+.mainControl,
+#scrollAni{ bottom:5em}
+
+#contents .sub_tit .tit{ font-size:2em}
+
+.culture_con{}
+.culture_con ul li .inn .tt{}
+.culture_con ul li .inn .tt .txt{ font-size:13px}
+.culture_con ul li .inn .tt .col{ font-size:18px}
+
+.prod_faq_wrap .imgB,
+.prod_faq_wrap .faqB{ width:100%; float:none}
+.prod_faq_wrap .imgB{ border:1px solid #ddd; box-sizing:border-box}
+.prod_faq_wrap .imgB img{ margin:0 auto; display:block}
+.faq_board .tt{}
+
+.sub_history_wrap{ padding-left:325px}
+.sub_history_wrap .sub_history_line{ display:none}
+.sub_history_wrap .sub_history > li .history:before{ display:none}
+}
+
+@media screen and (max-width:1024px){
+body{ font-size:13px}
+
+#header .gnb_wrap{ display:none}
+#header .etc_wrap .all_wrap .all{ display:block}
+#header .etc_wrap .all_wrap .all .all_logo{ text-align:left; padding:1em 0}
+#header .etc_wrap .all_wrap .all .all_logo img{ height:3.5em}
+#header .etc_wrap .all_wrap .all .gnb{ flex-wrap:wrap; font-size:1.125em}
+#header .etc_wrap .all_wrap .all .gnb > li{ flex:1 1 100%}
+#header .etc_wrap .all_wrap .all .gnb > li .dp1{ text-align:left; height:auto; padding:1em .75em}
+#header .etc_wrap .all_wrap .all .gnb > li .dp3 > li > a{ padding-top:.5em; padding-bottom:.5em}
+.hidden .fWrap#header .logo > a{ opacity:0}
+
+#contents .sub_menu .gnb > li .dp2 > li > a{ height:2.2em}
+#contents .sub_menu .gnb > li .dp2 > li > a .va{ font-size:.750em}
+
+.section .wrap_con{ padding-bottom:7vh}
+.main_technology{ margin:-3em 0 0 -3em}
+.main_technology > li > a{ margin:3em 0 0 3em}
+.mainSlider .slogan{ font-size:.875em; top:25vh}
+.mainSlider .slogan .t1{ line-height:1.1; letter-spacing:-1px}
+.mainProgress canvas{ height:50px !important; width:50px !important}
+.mainControl .mainPauseWrap{ width:50px}
+.mainControl .mainPauseWrap .mainSlider-btn{ line-height:50px; width:50px}
+.mainPartnership_wrap{ padding:0 2em}
+.prev.sliderBtnSt{ left:-1em}
+.next.sliderBtnSt{ right:0}
+.sliderBtnSt{ opacity:.3}
+
+.sub_page_tit3 .tit_wrap{ padding:0 1em 2em 1em}
+.sub_page_tit3 .tit_wrap .t1{ font-size:2em}
+
+.value-box .value{ width:100%}
+.value-box .list{ font-size:13px; padding-right:0; padding-bottom:3em}
+.value-box .robotoB{ font-size:25px}
+.value-box .robotoB .robotoM{ font-size:18px}
+.page_oemB .list .txt_wrap > dt{ font-size:18px}
+.page_oemB .list .txt_wrap > dd{ font-size:13px}
+
+.sub_history_wrap{ padding-left:288px}
+
+.prodSlider .el{ height:12vh; padding-top:0}
+.main_prod_wrap .main_prod_in .in.prod{ padding:1em}
+.main_prod_wrap .main_prod_in{ margin:0 0 0 -10px}
+.main_prod_wrap .main_prod_in .in{ margin:0 0 0 10px; min-height:250px}
+.main_prod_tit .tt{ font-size:1em; padding-top:.3em}
+.prodSlider .prodTit .prod_tt{ font-size:1em}
+.prodControl{ right:1em; top:1em}
+.main_prod_wrap .main_prod_in .in{ padding:1em}
+.main_prod_wrap .main_prod_in .main_search_con dl dt .en{ font-size:1.250em}
+.main_prod_wrap .main_prod_in .main_search_con dl dd{ font-size:.875em}
+.main_prod_wrap .main_prod_in .main_search_con dl dt .tit{ font-size:1.250em}
+.main_prod_wrap .searchBox .search_inp{ width:130px}
+
+.page_ceoWrap .right{ width:45%}
+
+.contact_list > ul > li{ width:100% !important; display:block;}
+.contact_list ul li .inner .txt{ width:100%}
+
+.prod_list_tab_w .product_list li{ width:20%}
+
+.slogan_w > li .in{ min-height:230px}
+
+#footer .info_wrap .info{ padding-left:1em}
+#footer .info_wrap .logo{ width:18%}
+
+}
+
+@media screen and (max-width:1000px){
+.prodSlider .el{ height:18vh}
+}
+
+@media screen and (max-width:900px){
+body{ font-size:11px}
+
+.PC{ dipslay:none !important}
+.PHONE{ display:block !important}
+
+.headerH, #header .va_wrap{ height:60px}
+#header .etc_wrap .all_wrap{}
+#header .etc_wrap .all_wrap .all .all_logo img{ height:2.5em}
+#header .etc_wrap .all_wrap .all .gnb > li .dp2 > li > a{ font-size:.750em}
+
+#header .logo > a{ height:70%; top:15%}
+#header .etc_wrap .lang{ margin-right:1em}
+
+#contents .sub_nav > li.tt{ display:none}
+#contents .sub_nav > li.tt:last-child{ display:block; flex:1 1 auto}
+#contents .sub_nav > li.tt .navBtn{ width:100%; box-sizing:border-box}
+#contents .sub_nav > li .navBtn{ font-size:1.125em; height:3.2em}
+#contents .sub_nav > li .gnb li a{ font-size:.750em}
+#contents .subtop_wrap .sub_visual{ font-size:.75em; height:25em}
+#contents .subtop_wrap .sub_visual .wrap_in .sub_menu{ display:none}
+
+.main_tit{ font-size:.875em}
+.main_tit .t1{ margin-bottom:.2em}
+.main_tit .t2{ font-size:1.250em}
+.main_tit .t2 br{ display:none}
+.main_con{ padding-top:2em}
+
+.main_cont > li{ width:50%}
+.main_cont > li.w1{ width:100%;  margin:2em 0}
+.main_ir{ font-size:.875em}
+.main_ir > li{ width:33.33%}
+.main_ir > li .more{ display:none !important}
+.main_board > li{ display:none}
+.main_board > li:nth-child(1),
+.main_board > li:nth-child(2){ display:block}
+
+.main_link .in .t2{ display:none}
+.main_link .in .more{ margin-top:.5em}
+
+.main_prod_tit{ border-bottom:none;}
+.main_prod_tit .tt{ font-size:.938em; padding-bottom:0}
+.main_prod_wrap .main_prod_in > li{ width:50%}
+.main_prod_wrap .main_prod_in{ margin:0; background:#1b5b8f}
+.main_prod_wrap .main_prod_in .in{ min-height:160px; padding:1em; margin:0}
+.main_prod_wrap .main_prod_in .in.prod{ padding:1em}
+.main_prod_wrap .main_prod_in .main_search_con dl dt .tit{ font-size:.938em;}
+.main_prod_wrap .main_prod_in .main_search_con dl dd{ font-size:.750em}
+.main_prod_wrap .main_prod_in .main_search_con dl dt .en{ font-size:.570em}
+.main_prod_wrap .searchBox{ display:none}
+.main_prod_wrap .more{ display:inline-block !important; margin-top:0}
+.prodSlider .prodTit{ position:inherit; width:100%}
+.prodSlider .prodTit .prod_tt{ font-size:.750em}
+.prodSlider .el{ padding:0; height:21vh;}
+.prodSlider .el .bg{ width:100%; height:80%; background-size:contain; background-position:center center}
+.prodControl{ right:1em; top:1em}
+.prodControl .prodSlider-btn{ font-size:.875em; width:1.5em; height:1.5em; line-height:1.5em}
+.prodControl .prodSlider-btn.prodSlider-pause{ display:none}
+
+.sub_st.mainPartnership .el{ width:33.33%}
+
+.page_ceoWrap .left,
+.page_ceoWrap .right{ float:none; width:100%}
+.page_ceoWrap .right .inner .img{ display:none}
+
+.page_ceoWrap .page_ceoB .txt_wrap .inner,
+.page_ceoWrap .page_ceoB{ padding:0}
+.page_ceoWrap:nth-child(2){ padding:0}
+.page_oemB .list li{ width:100% !important; margin-bottom:1em}
+.page_oemB .list .txt_wrap:before{ display:none}
+.page_oemB .list .inner{ overflow:hidden}
+.page_oemB .list .icon{ width:10%; padding-top:10%; float:left; border:none}
+.page_oemB .list .icon img{ max-width:50px}
+.page_oemB .list .txt_wrap{ width:80%; padding-left:2em; float:left; text-align:left; padding-top:10px}
+.page_oemB .list .txt_wrap > dd{ padding-left:0}
+
+.contact_list > ul > li{ width:100% !important; display:block; font-size:13px}
+.contact_list ul li .inner .txt{ width:100%}
+.location_page .map_info1 .t1,
+.location_page .btn_in .more,
+.contact_list ul li .inner ul > li > .num{ font-size:13px}
+.location_page iframe{ height:300px !important}
+.location_page .btn_in{ float:right; display:block; margin-top:10px}
+
+.page_tab{ overflow-x:scroll}
+.page_tab li{ width:auto !important}
+.page_tab .tab > li > a{ min-width:3em}
+.page_tab .tab > li > a .tt{ font-size:13px}
+
+.mprod_list_wrap .prod_wrap .img_wrap{ float:none; width:100%;}
+.mprod_list_wrap .prod_wrap .prod_st{ float:none; width:100%;}
+.mprod_list_wrap .prod_wrap .prod_st .inner{ padding:20px 20px;}
+.mprod_list_wrap .prod_wrap .prod_st .tit_wrap .t2{ font-size:1.25em;}
+.mprod_list_wrap .prod_wrap .prod_st .btn_wrap{ width:100%; position:inherit; text-align:left; margin-top:15px; background:none}
+.mprod_list_wrap .prod_wrap .prod_st .btn_wrap .btn .xi{ display:none;}
+.mprod_list_wrap .prod_wrap .prod_st .btn_wrap .btn{ width:120px; font-size:0.75em; height:30px;}
+.prod_search_wrap .prod_search_con > li .inp_wrap .check_con,
+.mprod_list_wrap .prod_wrap .prod_st .info_wrap .info .tt,
+.prod_con_wrap .list_wrap .list .pro_info .tx_w{ font-size:1.125em}
+.hover_st1::after{ top:55%;}
+
+.prod_list_wrap .list > li{ width:50%}
+.prod_list_wrap .list > li .prod_st .con_wrap .t1{ font-size:13px}
+.prod_list_tab_w .product_list li a{ font-size:12px}
+.prod_list_tab_w .product_list li{ width:33.33%}
+.prod_search_wrap .prod_search_con > li .con_tit{ position:inherit; width:100%; padding:.5em 0;}
+.prod_search_wrap .prod_search_con > li .inp_wrap .inp{ height:40px; font-size:.750em;}
+.prod_search_wrap .prod_search_con > li .inp_wrap select.inp, 
+.prod_search_wrap .prod_search_con > li .inp_wrap input.inp{ border:2px solid #ddd;}
+.prod_search_wrap .prod_search_con > li.left .li_in{ padding-left:0;}
+.prod_search_wrap .prod_search_con > li .con_tit i{ font-size:1.250em}
+
+.prod_detail_wrap .inner .slide_wrap,
+.prod_detail_wrap .inner .info_wrap{ width:100%; float:none}
+.prod_detail_wrap .info_wrap .in{ padding:20px 0 0 0;}
+.prod_detail_wrap .info_wrap .prod_tit .t2{ font-size:1.750em}
+.prod_detail_wrap .info_wrap .prod_info .info{ padding:10px 0 10px 130px; font-size:1.125em}
+.prod_detail_wrap .info_wrap .prod_btn .btn{ height:40px}
+.prod_con_wrap .list_wrap .list > dt{ padding:15px 50px 15px 25px}
+.prod_con_wrap .list_wrap .list .pro_info .tx_w{ padding:15px 30px 15px 60px}
+
+.faq_board .qq .tt{ font-size:1.250em}
+
+.board_st.news .list .date_wrap{ width:20%}
+.board_st.news .list .img_wrap{ width:70%}
+.board_st.news .list .txt_wrap{ width:100%}
+
+.page_tab_wrap .page_tab .tab1 > li > a{ height:30px; font-size:.750em; line-height:30px}
+.board_st.video .list > li{ width:50%}
+.video_page .page_tab_wrap .box1{ max-width:100%}
+.page_tab_wrap .page_tab .tab1 > li > a{ padding:0 .5em}
+
+.slogan_w > li{ width:100%}
+.slogan_w > li .in{ padding:1.5em 2.5em 3em 2.5em}
+.slogan_w > li .in .tt2 ul li{ width:100%; font-size:1.250em}
+.slogan_w > li .in .ti{ font-size:1.250em}
+
+.ch_con01 .ch01_img .ch01_tt{ width:85%; padding:1.5em 1em 1.5em}
+.ch_con01 .ch01_img .ch01_tt .tt_st{ font-size:1.250em}
+.page_tit.dp1{ font-size:1.375em}
+
+.page_ex_box > .inner .in_tt.t1,
+.page_list.dp3 > * > .tt{ font-size:1.125em}
+
+.recru_wrap{}
+.sub_history_wrap{ padding-left:1em}
+.sub_history_wrap .sub_history > li .history_img{ left:1em; position:relative;}
+.sub_history_wrap .sub_history > li .history .list .tt{ font-size:1.125em}
+.sub_history_wrap .sub_history_line{ left:1em; top:-22px}
+
+.culture_con > ul > li{ width:100% !important; display:block !important; margin-bottom:1em}
+.culture_con ul li .inn .tt{ height:auto; margin-top:180px}
+.culture_con ul li .inn{ height:auto}
+.company_b{ margin-bottom:0}
+
+.rnd_dv .bg_dv{ position:relative; top:1em; right:0}
+.rnd_dv .p2{ width:100%;}
+.rnd_dv .p1{ font-size:1.570em}
+.rnd_dv .p1::after{ width:30px; left:30px}
+.rnd_dv .p1::before{ width:30px}
+
+.page_ceoWrap .p1{ font-size:1.250em}
+
+}
+
+@media screen and (max-width:768px){
+.faq_board .tt{ width:70%}
+.video_page .video_recent ul li:nth-child(1),
+.video_page .video_recent ul li:nth-child(2){ width:100%}
+.video_page .video_recent ul li dl{ padding:3em}
+.video_page .video_recent ul li:nth-child(1) iframe{ height:280px}
+
+.page_ex_box > .inner.txt{ flex:3}
+.vision_list{ flex-wrap:wrap}
+.vision_list > li{ flex:1 0 100%; max-width:100%}
+
+.load #contents .sub_slogan{ padding-top:8em}
+.plat02_con .ab_text .text_box{ position:relative; width:auto}
+
+.prod_search_wrap .prod_search_con > li .inp_wrap .inp{ font-size:1em}
+
+/*일반탭*/
+.page_tab .tab{ display:inherit; overflow:hidden}
+.page_tab .tab li{ float:left; width:33.33% !important}
+.page_tab .tab > li > a{ border-color:#fff}
+.page_tab .tab > li:hover > a, .page_tab .tab > li.on > a{ background:#004a98; color:#fff}
+
+/*영상탭*/
+.page_tab > li{ width:100%}
+.page_tab_wrap .page_tab .tab1 > li{ width:33.33% !important}
+
+#header .etc_wrap .lang{ margin-right:0}
+
+.sub_history_wrap .sub_history > li .history_img img{ max-width:160px}
+
+.page_tab_wrap .page_tab .tab1 > li > a{ margin-bottom:.3em}
+
+}
+
+@media screen and (max-width:520px){
+#header .etc_wrap .cnt{ display:none}
+
+.mainSlider .slogan .t1{ font-size:3.750em; width:80%; margin:0 auto}
+.mainSlider .slogan{ top:26vh}
+
+.main_prod_wrap .more{ font-size:.750em}
+
+#footer .link_wrap{ padding:0}
+#footer .menu_wrap{ width:100%; justify-content:center; padding:1em 0}
+#footer .etc_wrap{ width:100%; padding-bottom:1em; justify-content:center}
+#footer .info_wrap > .flex{ justify-content:center}
+#footer .info_wrap .logo{ width:100%; text-align:center}
+#footer .info_wrap .logo img{ height:2.5em}
+#footer .info_wrap .info{ width:100%; margin-top:2em; justify-content:center}
+#footer .info_wrap .info > li{ margin:0 1em; line-height:2}
+#footer .info_wrap .info > li.copyright{ text-align:center}
+#footer .link_wrap .menu_wrap > li > a{ padding:0 .5em}
+
+.page_oemB .list .icon{ width:15%; padding-top:15%}
+.page_oemB .list .txt_wrap{ width:70%}
+
+.faq_board .tt{ width:56%}
+
+.video_page .video_recent ul li dl dt .tt{}
+.video_page .video_recent ul li:nth-child(1) iframe{ height:230px}
+
+.page_ex_box > .inner.icon{ display:none}
+.board_st.list .condition{ min-width:50px}
+
+
+
+}
+
+@media screen and (max-width:480px){
+.main_technology{ margin:-1em 0 0 -1em}
+.main_technology > li{ width:100%}
+.main_technology > li > a{ margin:1em 0 0 1em; display:flex; align-items:center}
+.main_technology > li > a .img{ flex:0 0 auto; width:25%; padding-bottom:25%; margin-right:1.5em}
+.main_technology > li > a .con{ padding:0; text-align:left}
+.main_board > li > a{ flex-direction:column-reverse; align-items:flex-start !important; height:auto; padding:1em; position:relative}
+.main_board > li > a .date{ display:block; margin-top:.75em; text-align:left; width:100%}
+.main_board > li > a .date .t2{ display:none}
+.main_board > li > a .con{ max-width:100%; flex:0 0 auto; margin:0}
+.main_board > li > a .more{ position:absolute; right:.5em; bottom:.5em}
+.main_board > li > a .more .xi{ font-size:1em}
+.main_link{ padding-bottom:35% !important}
+
+.sub_st.mainPartnership .el{ width:50%}
+
+.sub_tit{ font-size:.875em}
+
+#section1 .wrap_bg,
+#section2 .wrap_bg{ background-position:left -40vw top}
+
+
+.prod_list_tab_w .product_list li{ width:50%}
+
+}
+
+
+@media screen and (max-width:320px){
+body{ font-size:9px}
+.page_oemB .list .icon{ width:20%; padding-top:20%;}
+.page_oemB .list .txt_wrap{ width:62%}
+}
+
+
+@media screen and (max-height: 1024px) and (orientation: landscape){
+.prodSlider .el{ height:19vh}
+}
+
+
+@media screen and (max-height: 768px) and (orientation: landscape){
+.box0,
+.box1{ width:90%; margin:0 auto}
+
+body{ font-size:15px}
+
+.mainSlider .slogan{ font-size:.813em; top:20vh}
+.wrap_con{ padding:0}
+.wrap_con > .box1{ display:flex; align-items:center; flex-wrap:wrap}
+.wrap_con .main_tit{ width:30%; margin-right:5%; text-align:left}
+.wrap_con .main_tit .t2{ margin-top:1em; padding-bottom:2em}
+.wrap_con .main_con{ width:65%; padding:0}
+
+#section2 .wrap_con .main_con{ width:100%}
+#section2 .main_tit{ display:none}
+#section2 .prodSlider .el{ height:34vh}
+
+.color #header{ background:none; box-shadow:none}
+
+#mainNav > li > a{ line-height:3em}
+.main_cont .main_tit{ width:auto; margin-right:0; text-align:left; display:none}
+.main_cont{ width:100%}
+.main_cont > li{ width:50%}
+.main_cont > li.w1{ width:100%; margin:0}
+.main_cont > li.w2{ width:50%}
+.main_board > li:nth-child(2),
+.main_board > li:nth-child(3),
+.main_board > li:nth-child(4){ display:none}
+.main_ir{ margin:0 -1em -1em 0; box-shadow:none}
+.main_ir > li{ width:33.33%}
+.main_ir > li > a{ flex-direction:row !important; height:auto; padding:1em; margin:0 1em 1em 0}
+.main_ir > li > a .t1{ margin:0 0 0 .5em}
+.main_ir > li > a .more{ display:none}
+.main_link{ padding-bottom:15% !important}
+.main_link .in{ display:flex; justify-content:space-between; align-items:center}
+.main_link .in .more{ margin-top:0}
+.mainPartnership .el .wrap_in{ padding-bottom:.5em}
+
+#section3 .main_tit:first-child{ width:100%}
+#section3 .main_tit{ width:10em; margin-top:0; padding-left:2em; box-sizing: border-box}
+#section3 .mainPartnership_wrap{ flex:1 1 auto; width:80%; box-sizing:border-box; margin:.5em 0}
+}
+
+

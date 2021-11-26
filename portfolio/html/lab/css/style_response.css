@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{}
+.box1{}
+.PC{ display:none !important}
+.PHONE{ display:block !important}
+
+@media screen and (max-width:1600px){
+.lab_view_bottom{ padding:0}
+
+}
+
+
+@media screen and (max-width:1280px){
+body{ font-size:14px}
+.box1{ width:calc(100% - 6em); margin:0 auto}
+.box2{ margin:0 3%}
+#header .gnb_wrap{ display:none}
+.lab_view_bottom{ padding:0}
+
+.lab_list > li{ width:50%}
+
+#quick{ width:80px; right:-80px}
+#quick .quickBtn{ margin-left:-35px}
+#quick .quickBtn .con > li > a .xi{ width:35px; line-height:35px;}
+
+
+}
+@media screen and (max-width:1024px){
+body{ font-size:12px}
+.lab_view{ flex-wrap:wrap}
+.lab_view .view_img_wrap,
+.lab_view .view_con_wrap{ width:100%; margin-bottom:1em}
+
+.hexagon_wrap > li{ width:33.33%}
+.hexagon_wrap > li:nth-of-type(5n-4){ margin-left:16.66%}
+.hexagon_wrap > li:nth-of-type(5n-2){ margin-left:0}
+/*.mainVod_wrap #mainVod { width:auto !important;height:937px; position:absolute;left:50%;top:0;transform:translateX(-50%);}*/
+
+.map_cont{ padding-bottom:2em}
+}
+@media screen and (max-width:1024px) and (orientation:landscape){
+/*.box1{ width:70%; margin:0 auto}
+*/
+
+
+}
+
+
+@media screen and (max-width:900px) ,(max-height:900px){
+
+}
+
+
+@media screen and (max-width:768px) ,(max-height:768px){
+body{ font-size:11px}
+#footer .logo_wrap .logo{ height:4em}
+
+#footer .info_wrap .info{ width:45%}
+#footer .cs_wrap .wrap_in.location{ display:none}
+/*#footer .cs_wrap .wrap_in.cs{ width:calc(100% - 18em)}*/
+#footer .cs_wrap .wrap_in.bank{ width:15em}	
+#footer .cs_wrap .cs_con{ padding:.5em 1em}
+
+#contents .subtop_wrap .sub_visual{ font-size:.75em}
+
+.main_tit{ font-size:2.5em}
+.section.company .logo img{ height:7em}
+.main_tt3.st1{ font-size:1em}
+
+.tt_st1{ font-size:1.5em}
+
+.lab_list{ margin:-1em 0 0 -1em; padding:0 5%}
+.lab_list > li{ width:50%}
+.lab_list > li .in{ margin:1em 0 0 1em}
+.lab_list > li .in .btn_wrap > li{ width:100%}
+.lab_view_bottom .img_wrap > li{ width:50%}
+.lab_view_bottom .vod_wrap > li{ width:100%}
+
+.chartdiv_wrap{ padding-bottom:60%}
+
+.hexagon .wrap_in .in img{ width:50%}
+
+
+
+.prod_view_top{ flex-wrap:wrap}
+.prod_view_top .img_wrap,
+.prod_view_top .info_wrap{ width:100%; margin-bottom:1em}
+
+.memo_st.flex{ flex-wrap:wrap}
+
+#quick .menu_wrap > li .vm_wrap{ height:50px}
+
+
+.client_box{}
+.con_tit .tt:before, .con_tit .tt:after{ width:20%}
+
+
+.dl_st > dt,
+.dl_st > dd{ width:100%}
+.dl_st > dt .wrap_in{ padding-bottom:2em}
+.dl_st > dt .icon{ top:-.875em; right:0}
+
+.lab_facility .list > li{ max-width:50%; flex:1 0 50%}
+
+
+
+
+}
+@media screen and (max-width:768px) and (orientation:portrait){ /*세로모드*/
+.section.company .main_tt2 br{ display:none}
+.map_wrap{ padding-bottom:60%}
+
+.tech_list{ margin:0}
+.tech_list li{ width:33.33%}
+.tech_list li .inner .in > img{ padding-top:0;}
+.tech_list li .inner{ background:none; width:auto; height:auto;}
+
+
+
+}
+
+@media screen and (max-height:768px) and (orientation:landscape){ /*가로모드*/
+.section.company .logo img{ height:5em}
+
+/*.tech_list{ margin-let:-.5em;}
+.tech_list li{ width:20%}
+.tech_list li .inner .wrap_in{ padding:2em}
+.tech_list li .inner .in > img{ padding-top:0;}
+.tech_list li .inner{ width:13em; height:13em; border:5px solid transparent; margin:0 0 0 .5em;}
+.tech_list li .inner .in .t1{ padding-top:3em;}*/
+
+.tech_list li .inner{ width:18em; height:18em; border-width:10px}
+.tech_list li .inner .in .t1{ padding-top:0}
+
+}
+@media screen and (max-width:480px) ,(max-height:480px){
+#footer .cs_wrap{ padding:1em 0; width:100%;}
+#footer .cs_wrap .wrap_in .cs_con{ display:flex; flex-wrap:wrap; align-items:center}
+#footer .cs_wrap .wrap_in .cs_con > p{ margin-right:1em}
+#footer .cs_wrap .wrap_in .cs_con > p:last-child{ margin-right:0;}
+#footer .cs_wrap .wrap_in.cs{ width:48%}
+#footer .cs_wrap .cs_con{ padding:0 1em;}
+#footer .cs_wrap .cs_con .link{ width:100%; margin-top:.5em}
+#footer .cs_wrap .cs_con .link > li > a .icon{ display:inline-block; margin-right:.25em; font-size:1.25em}
+#footer .cs_wrap .cs_tit{ padding-bottom:0;}
+#footer .cs_wrap .bank{ padding-right:0}
+#footer .cs_wrap .wrap_in.bank{ width:48%;}	
+#footer .info_wrap{ padding:0 0 1.5em; position:relative}
+#footer .info_wrap .info{ border-right:0}
+#footer .info_wrap .info > li{ margin-right:1em}
+
+.hexagon .wrap_in .in img{ width:30%}
+.hexagon .wrap_in .in .t1{ font-size:1em}
+
+/*.tech_list li{ width:50%}*/
+.tech_list li .inner .in > img{ padding-top:0;}
+.tech_list li .inner{ background:none; width:auto; height:auto;}
+
+#footer .cs_wrap .cs_con .no2{ font-size:1.250em}
+#footer .cs_wrap .cs_con .no1{ font-size:1.375em}
+.client_box{ padding-top:.5em}
+.section.client .list > li{ width:33.33%}
+
+}
+@media screen and (max-width:480px) and (orientation:portrait){
+#footer .menu_wrap .menu,
+#footer .menu_wrap .sns,
+#footer .info_wrap .info{ width:100%; justify-content:center;}
+#footer .info_wrap .info{ margin-top:0}
+#footer .info_wrap .info .copyright{ text-align:center}
+#footer .copy_tit{ display:none}
+#footer .menu_wrap .menu > li > a{ padding:.5em 1em}
+#footer .menu_wrap{ padding-bottom:1em; border-bottom:0}
+
+.lab_facility .list{ flex-wrap:wrap}
+.lab_facility .list > li{ max-width:100%; flex:1 0 100%}
+
+.map_cont > div{ width:100%}
+
+#footer .menu_wrap .sns > li > a{ width:10em}
+
+}
+@media screen and (max-height:480px) and (orientation:landscape){
+#footer .logo_wrap{ display:none}
+#footer .cs_wrap .cs{ position:relative; padding-top:.75em}
+#footer .cs_wrap .cs_con{ padding:0}
+#footer .cs_wrap .cs .cs_con .link{ position:absolute; right:0; top:0; width:25em}
+#footer .cs_wrap .cs_con .link > li > a{ padding:.25em}
+#footer .cs_wrap .bank{display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;}
+#footer .cs_wrap .cs_tit{ padding-bottom:0; border-bottom:0}
+}
+@media screen and (max-width:380px), (max-height:380px){
+body{ font-size:9px}
+.tech_list li{ width:50%;}
+#footer .cs_wrap{ display:none}
+}
+@media all and (orientation:portrait){
+#vod{ transform: translate(-50%,-50%) scale(.3)}
+
+}

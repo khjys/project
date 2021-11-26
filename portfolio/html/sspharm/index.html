@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성제약</title>
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <link href="css/inc.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/font.css" rel="stylesheet" type="text/css" />
+    <link href="css/board.css" rel="stylesheet" type="text/css" />
+    <link href="css/style_response.css" rel="stylesheet" type="text/css" />
+    <link href="css/xeicon.min.css" rel="stylesheet" type="text/css" />
+    <script src="js/inc.js" type="text/javascript"></script>
+    <script src="js/placeholders.min.js" type="text/javascript" defer="defer"></script>
+    <link rel="stylesheet" href="js/slick/slick.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/slick/slick.js"></script>
+    <link rel="shortcut icon" href="images/inc/favicon.ico" />
+</head>
+<body>
+    <!--header start-->
+    <div id="header" class="fWrap">
+        <span class="head_bg"></span>
+        <div class="box0 top_wrap headerH flex space vc">
+            <h1 class="logo"><a href="#"></a></h1>
+            <div class="gnb_wrap">
+                <div class="gnbBg headerT"></div>
+                <div class="menu">
+                    <!--gnb start-->
+                    <ul class="gnb flex">
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">삼성제약</span></a>
+                            <ul class="dp2 flex">
+                                <li><a href="#" class="va_wrap"><span class="va">인사말</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">연혁</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">회사소개</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">연구소소개</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">문의전화안내</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">위치안내</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">제품정보</span></a>
+                            <ul class="dp2 flex">
+                                <li><a href="#" class="va_wrap"><span class="va">전문의약품</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">일반의약품</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">의약외품</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">약국용드링크</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">건강기능식품</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">기타</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">식품</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">의약품공지사항</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">FAQ</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">홍보센터</span></a>
+                            <ul class="dp2 flex">
+                                <li><a href="#" class="va_wrap"><span class="va">삼성소식</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">보도자료</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">영상광고</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">1:1문의</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">기업IR</span></a>
+                            <ul class="dp2 flex">
+                                <li><a href="#" class="va_wrap"><span class="va">재무정보</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">주가정보</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">공시정보</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">채용정보</span></a>
+                            <ul class="dp2 flex">
+                                <li><a href="#" class="va_wrap"><span class="va">인재상</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">인사안내</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">채용정보</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--gnb end-->
+                </div>
+            </div>
+            <div class="etc_wrap flex vc">
+                <div class="cnt">
+                    <a href="javascript:void(0)" class="contact_btn"><i class="xi xi-mail-o icon"></i><i class="tt">고객센터</i></a>
+                </div>
+                <div class="lang toggleWrap">
+                    <a href="javascript:void(0)" class="lang_btn" onclick="toggleClass(this)"><i class="xi xi-globus icon"></i><i class="tt">KOR</i><i class="xi xi-angle-down-min arrow"></i></a>
+                    <ul class="list">
+                        <li><a href="#" class="lang_btn"><i class="xi xi-globus icon"></i><i class="tt">ENG</i><i class="xi xi-angle-right-min arrow"></i></a></li>
+                    </ul> 
+                </div>
+                <div class="all_wrap toggleWrap">
+                    <a href="javascript:void(0)" class="all_btn" onclick="toggleClass(this); toggleClass(this,'html,body','hidden');"><i class="xi xi-align-left"></i></a>
+                    <div class="all flex vc">
+                        <a href="javascript:void(0)" class="close_btn" onclick="toggleClass(this); toggleClass(this,'html,body','hidden');"><i class="xi xi-close-thin"></i></a>
+                        <div class="box1">
+                            <p class="all_logo"><img src="images/inc/logo.png" alt="" /></p>
+                            <!--gnb start-->
+                            <ul class="gnb flex">
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">삼성제약</span></a>
+                                    <ul class="dp2 flex">
+                                        <li><a href="#" class="va_wrap"><span class="va">인사말</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">연혁</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">회사소개</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">연구소소개</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">문의전화안내</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">위치안내</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">제품정보</span></a>
+                                    <ul class="dp2 flex">
+                                        <li><a href="#" class="va_wrap"><span class="va">전문의약품</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">일반의약품</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">의약외품</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">약국용드링크</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">건강기능식품</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">기타</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">식품</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">의약품공지사항</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">FAQ</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">홍보센터</span></a>
+                                    <ul class="dp2 flex">
+                                        <li><a href="#" class="va_wrap"><span class="va">삼성소식</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">보도자료</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">영상광고</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">1:1문의</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">기업IR</span></a>
+                                    <ul class="dp2 flex">
+                                        <li><a href="#" class="va_wrap"><span class="va">재무정보</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">주가정보</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">공시정보</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">채용정보</span></a>
+                                    <ul class="dp2 flex">
+                                        <li><a href="#" class="va_wrap"><span class="va">인재상</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">인사안내</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">채용정보</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--gnb end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    function headerGnb(){
+        var gnb = $('#header .gnb_wrap .gnb')
+        var gnbDp1 = $('#header .gnb_wrap .gnb > li')
+        var gnbDp2 = $('#header .gnb_wrap .gnb .dp2')
+        var headerDp1 = $('#header .gnb_wrap .gnb li.on')
+        headerDp1.addClass("on")
+        gnbDp1.mouseenter(function(){
+            gnbDp2.hide();
+            $(this).children(".dp2").fadeIn(200);
+        });
+        gnbDp1.mouseleave(function(){
+            gnbDp2.hide();
+        });
+        gnb.mouseenter(function(){
+            $("#header .gnbBg, #header .top_wrap .dp2").equalizeHeights();
+            $("#header .gnbBg").slideDown(200);
+        });
+        gnb.mouseleave(function(){
+            $("#header .gnbBg").hide();
+        });	
+    };
+
+    </script>
+    <!--header end-->
+    <!--contents start-->
+        <div class="mainNav_wrap va_wrap">
+            <div class="va">
+                <ul id="mainNav">
+                    <li><a href="javascript:void(0)" onclick="goFullpage(1)"><span class="tt">Home</span><span class="line"></span></a></li>
+                    <li><a href="javascript:void(0)" onclick="goFullpage(2)"><span class="tt">Business</span><span class="line"></span></a></li>
+                    <li><a href="javascript:void(0)" onclick="goFullpage(3)"><span class="tt">Products</span><span class="line"></span></a></li>
+                    <li><a href="javascript:void(0)" onclick="goFullpage(4)"><span class="tt">News & IR</span><span class="line"></span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="fullpage">
+            <div id="section0" class="section">
+                <div class="swiper-container mainSlider linkScroll" data-no="0">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide el">
+                            <div class="bg" style="background-image:url(images/main/visual1.jpg)"></div>
+                            <div class="box1">
+                                <div class="slogan">
+                                    <p class="t0">SAMSUNG PHARM Since 1929</p>
+                                    <p class="line"></p>
+                                    <p class="t1">Find The Health In Your Life</p>
+                                    <p class="t2">건강한 습관, 삼성제약이 지켜드립니다. 당신의 삶 속에서 건강을 찾으세요.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide el">
+                            <div class="bg" style="background-image:url(images/main/visual2.jpg)"></div>
+                            <div class="box1">
+                                <div class="slogan">
+                                    <p class="t0">SAMSUNG PHARM Since 1929</p>
+                                    <p class="line"></p>
+                                    <p class="t1">Find The Health In Your Life</p>
+                                    <p class="t2">인류의 건강한 미래를 꿈꾸는 길, 삼성제약이 함께 합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide el">
+                            <div class="bg" style="background-image:url(images/main/visual3.jpg)"></div>
+                            <div class="box1">
+                                <div class="slogan">
+                                    <p class="t0">SAMSUNG PHARM Since 1929</p>
+                                    <p class="line"></p>
+                                    <p class="t1">Find The Health In Your Life</p>
+                                    <p class="t2">평생 건강지킴이 삼성제약이 함께 하겠습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainControl">
+                            <div class="box0 flex vc">
+                                <div class="mainProgress"></div>
+                                <div class="mainPauseWrap sliderPauseWrap">
+                                    <i class="xi xi-pause mainSlider-pause mainSlider-btn" onclick="sliderPause(this,mainSlider)"></i>
+                                    <i class="xi xi-play mainSlider-play mainSlider-btn" onclick="sliderPlay(this,mainSlider)"></i>
+                                </div>
+                                <div class="mainSlider-prev mainSlider-btn"><i class="xi xi-long-arrow-left"></i></div>
+                                <div class="mainSlider-next mainSlider-btn"><i class="xi xi-long-arrow-right"></i></div>
+                                <div class="mainSlider-pagination mgL"></div>
+                            </div>
+                        </div>
+                        <a id="scrollAni" href="javascript:goFullpage(2)"><i class="xi xi-mouse"></i><i class="xi xi-scroll"></i><span class="tt">Scroll Down</span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="section1" class="section">
+                <div class="wrap_bg" style="background-image:url(images/main/con1_bg.jpg); background-position:left bottom"></div>
+                <div class="wrap_con">
+                    <div class="box1 headerT">
+                        <div class="main_tit">
+                            <p class="t1">Business Area</p>
+                            <p class="t2">삼성제약은 의료시장의 선두주자로 혁신적이며 경쟁력 있는 의약품 및 최적화된 바이오 사업구조를 가지고 있습니다.</p>
+                        </div>
+                        <div class="main_con">
+                            <ul class="main_technology flex wrap space">
+                                <li>
+                                    <a href="#" class="hover_st1">
+                                        <span class="img resize hover_in"><em class="obj re bg_fix" style="background-image:url(images/main/con1_img04.jpg)"></em><em class="layer st1"><i class="xi more"></i></em></span>
+                                        <span class="con"><strong class="t1">전문의약품</strong><!--<i class="t2">RIAVAX 4월 출시<br />다양한 OTC제품 유통</i>--></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover_st1">
+                                        <span class="img resize hover_in"><em class="obj re bg_fix" style="background-image:url(images/main/con1_img01.jpg)"></em><em class="layer st1"><i class="xi more"></i></em></span>
+                                        <span class="con"><strong class="t1">일반의약품</strong><!--<i class="t2">R&amp;D 전문인력의 다양한 신제품을 <br />기반으로 중국시장에 진출</i>--></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover_st1">
+                                        <span class="img resize hover_in"><em class="obj re bg_fix" style="background-image:url(images/main/con1_img05.jpg)"></em><em class="layer st1"><i class="xi more"></i></em></span>
+                                        <span class="con"><strong class="t1">건강기능식품</strong><!--<i class="t2">뛰어난 원자재, 회사 인프라를 이용하여<br />높은 부가가치의 프리미엄 제품을 개발</i>--></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="section2" class="section">
+                <div class="wrap_bg" style="background-image:url(images/main/con2_bg.jpg); background-position:left top"></div>
+                <div class="wrap_con">
+                    <div class="box1 headerT">
+                        <div class="main_tit">
+                            <p class="t1">Products</p>
+                            <p class="t2">인류의 건강과 삶의 질 향상에 기여하는 글로벌 바이오제약 기업 삼성제약</p>
+                        </div>
+                        <div class="main_con">
+                            <div class="main_prod_wrap">
+                                <ul class="main_prod_in di_wrap">
+                                    <li>
+                                        <div class="main_search_con in">
+                                            <dl>
+                                                <dt><span class="en">SAMSUNG PHARM</span><span class="tit">제품검색</span></dt>
+                                                <dd>삼성제약의 다양한 제품을 검색을 통해 확인하실 수 있습니다.</dd>
+                                            </dl>
+                                            <div class="searchBox">
+                                                <div class="inp_wrap">
+                                                    <input type="text" msg="검색어를" class="search_inp" placeholder="검색어를 입력하세요.">
+                                                    <button type="submit" class="search_btn" onclick="location.href='javascript:void(0)'"><i class="xi xi-search"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main_prod_con in prod borderBox prodSlider_wrap1">
+                                            <div class="main_prod_tit"><p class="tt">전문의약품</p></div>
+                                            <div class="swiper-container prodSlider prodSlider1 linkScroll" data-no="0" id="prodSlider1">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide el">
+                                                        <div class="bg" style="background-image:url(images/main/prod1.jpg)"></div>
+                                                        <div class="prodTit"><p class="prod_tt">리아백스주</p></div>
+                                                    </div>
+                                                    <div class="swiper-slide el">
+                                                        <div class="bg" style="background-image:url(images/main/prod2.jpg)"></div>
+                                                        <div class="prodTit"><p class="prod_tt">제품명이 들어갑니다.</p></div>
+                                                    </div>
+                                                    <div class="swiper-slide el">
+                                                        <div class="bg" style="background-image:url(images/main/prod3.jpg)"></div>
+                                                        <div class="prodTit"><p class="prod_tt">제품명이 들어갑니다.</p></div>
+                                                    </div>
+                                                </div>                                        
+                                            </div>
+                                            <div class="prodControl">
+                                                <div class="box0 flex vc">
+                                                    <div class="prodSlider-prev prodSlider-btn"><i class="xi xi-angle-left"></i></div>
+                                                    <div class="prodSlider-next prodSlider-btn"><i class="xi xi-angle-right"></i></div>
+                                                    <div class="prodPauseWrap">
+                                                        <i class="xi xi-pause prodSlider-pause prodSlider-btn"></i>
+                                                        <i class="xi xi-play prodSlider-play prodSlider-btn"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main_prod_con in prod borderBox prodSlider_wrap2">
+                                            <div class="main_prod_tit"><p class="tt">일반의약품</p></div>
+                                            <div class="swiper-container prodSlider prodSlider2 linkScroll" data-no="1" id="prodSlider2">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide el">
+                                                        <div class="bg" style="background-image:url(images/main/prod2_1.jpg)"></div>
+                                                        <div class="prodTit"><p class="prod_tt">제품명이 들어갑니다.</p></div>
+                                                    </div>
+                                                    <div class="swiper-slide el">
+                                                        <div class="bg" style="background-image:url(images/main/prod2_2.jpg)"></div>
+                                                        <div class="prodTit"><p class="prod_tt">제품명이 들어갑니다.</p></div>
+                                                    </div>
+                                                    <div class="swiper-slide el">
+                                                        <div class="bg" style="background-image:url(images/main/prod2_3.jpg)"></div>
+                                                        <div class="prodTit"><p class="prod_tt">제품명이 들어갑니다.</p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="prodControl">
+                                                <div class="box0 flex vc">
+                                                    <div class="prodSlider-prev prodSlider-btn"><i class="xi xi-angle-left"></i></div>
+                                                    <div class="prodSlider-next prodSlider-btn"><i class="xi xi-angle-right"></i></div>
+                                                    <div class="prodPauseWrap">
+                                                        <i class="xi xi-pause prodSlider-pause prodSlider-btn"></i>
+                                                        <i class="xi xi-play prodSlider-play prodSlider-btn"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main_prod_con in prod borderBox prodSlider_wrap3">
+                                            <div class="main_prod_tit"><p class="tt">의약품</p></div>
+                                            <div class="swiper-container prodSlider prodSlider3 linkScroll" data-no="2" id="prodSlider3">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide el">
+                                                        <div class="bg" style="background-image:url(images/main/prod3_1.jpg)"></div>
+                                                        <div class="prodTit"><p class="prod_tt">제품명이 들어갑니다.</p></div>
+                                                    </div>
+                                                    <div class="swiper-slide el">
+                                                        <div class="bg" style="background-image:url(images/main/prod3_2.jpg)"></div>
+                                                        <div class="prodTit"><p class="prod_tt">제품명이 들어갑니다.</p></div>
+                                                    </div>
+                                                </div>                                        
+                                            </div>
+                                            <div class="prodControl">
+                                                <div class="box0 flex vc">
+                                                    <div class="prodSlider-prev prodSlider-btn"><i class="xi xi-angle-left"></i></div>
+                                                    <div class="prodSlider-next prodSlider-btn"><i class="xi xi-angle-right"></i></div>
+                                                    <div class="prodPauseWrap">
+                                                        <i class="xi xi-pause prodSlider-pause prodSlider-btn"></i>
+                                                        <i class="xi xi-play prodSlider-play prodSlider-btn"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--main_con end-->
+                    </div>
+                </div>
+            </div>
+            <div id="section3" class="section">
+                <div class="wrap_bg" style="background-image:url(images/main/con3_bg.jpg)"></div>
+                <div class="wrap_con">
+                    <div class="box1 headerT">
+                        <ul class="main_cont flex wrap space">
+                            <li>
+                                <div class="wrap_in">
+                                    <div class="main_tit al"><i class="t3 en">news</i></div>
+                                    <ul class="main_board c2 borderBox">
+                                        <li>
+                                            <a href="javascript:void(0)" class="flex vc">
+                                                <span class="date"><i class="t1">00.00</i><i class="t2">2021</i></span>
+                                                <span class="con"><i class="t1">타이틀이 들어갑니다.</i></span>
+                                                <span class="more"><i class="xi"></i></span>
+                                            </a>
+                                        </li>
+                                   </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrap_in">
+                                    <div class="main_tit al"><i class="t3">삼성소식</i></div>
+                                    <ul class="main_board c1 borderBox">
+                                        <li>
+                                            <a href="javascript:vod(0)" class="flex vc">
+                                                <span class="date"><i class="t1">00.00</i><i class="t2">2021</i></span>
+                                                <span class="con"><i class="t1">타이틀이 들어갑니다.</i></span>
+                                                <span class="more"><i class="xi"></i></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="w1">
+                                <div class="wrap_in">
+                                    <div class="main_tit al"><i class="t3">기업IR</i></div>
+                                    <ul class="main_ir flex wrap">
+                                        <li class="c1"><a href="#" class="flex vc hc col"><i class="xi xi-equalizer-thin"></i><i class="t1">주가정보</i><i class="more"></i></a></li>
+                                        <li class="c2"><a href="#" class="flex vc hc col"><i class="xi xi-document"></i><i class="t1">공시정보</i><i class="more"></i></a></li>
+                                        <li class="c3"><a href="#" class="flex vc hc col"><i class="xi xi-percent"></i><i class="t1">재무정보</i><i class="more"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="w2">
+                                <div class="wrap_in shadow ct">
+                                    <div class="main_link resize s2" style="background-image:url(images/main/con3_img01.jpg)">
+                                        <div class="re flex vc">
+                                            <div class="in">
+                                                <p class="t1">의약품 공지사항</p>
+                                                <p class="t2">삼성제약(주) 의약품 공지사항을 안내드립니다.</p>
+                                                <a class="more"><i class="tt">바로가기</i><i class="xi xi-angle-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="w2">
+                                <div class="wrap_in shadow ct">
+                                    <div class="main_link resize s2" style="background-image:url(images/main/con3_img02.jpg)">
+                                        <div class="re flex vc">
+                                            <div class="in">
+                                                <p class="t1">채용정보</p>
+                                                <p class="t2">삼성제약(주)과 함께 성장할 열정있는 인재를 기다립니다.</p>
+                                                <a class="more"><i class="tt">바로가기</i><i class="xi xi-angle-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="section4" class="section fp-auto-height">
+                <!--footer start-->
+                <div id="footer">
+                    <div class="link_wrap">
+                        <div class="box1 flex wrap space">
+                            <ul class="menu_wrap flex wrap">
+                                <li><a href="#" class="va_wrap"><span class="va tt">삼성제약</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va tt">개인정보처리방침</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va tt">찾아오시는길</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va tt">인재채용</span></a></li>
+                            </ul>
+                            <div class="etc_wrap flex">
+                                <div class="family_wrap toggleWrap">
+                                    <a href="javascript:void(0)" title="Family Site 열기" class="family_btn va_wrap" onclick="toggleClass(this)"><span class="va"><i class="tt">Family Site</i><i class="xi xi-angle-down arrow"></i></span></a>
+                                    <ul class="family">
+                                        <li><a href="#" class="family_btn va_wrap"><span class="va"><i class="tt">Site Name</i><i class="xi xi-angle-right-min arrow"></i></span></a></li>
+                                    </ul> 
+                                </div>
+                                <a href="javascript:goFullpage(1)" class="goTop va_wrap" title="맨 위로 이동"><span class="va"><i class="xi xi-arrow-top"></i><i class="tt">TOP</i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info_wrap">
+                        <div class="box1 flex wrap">
+                            <p class="logo"><img src="images/inc/logo_w.png" alt="삼성제약(주)" /></p>
+                            <ul class="info flex wrap">
+                                <li>삼성제약(주)</li>
+                                <li>ADD. 경기도 화성시 향남읍 제약공단4길 10 (우)445-746</li>
+                                <li>TEL. 031-353-6681</li>
+                                <li>FAX. 031-353-6685</li>
+                                <li>소비자문의전화. 080-777-8285
+                                </li>
+                                <li class="copyright">COPYRIGHT(C) SAMSUNG PHARM co.,Ltd. ALL RIGHTS RESERVED.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
+                <!--footer end-->
+            </div>
+        </div>
+
+    <!--cnetents end-->
+    <link href="js/fullpage/jquery.fullPage.css" rel="stylesheet" type="text/css" />
+    <script src="js/fullpage/jquery.fullPage.js" type="text/javascript"></script>
+    <link href="js/swiper/swiper.css" rel="stylesheet" type="text/css" />
+    <script src="js/swiper/swiper.js" type="text/javascript"></script>
+    <script src="js/swiper/circle-progress.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#fullpage').fullpage({
+            normalScrollElements : '#header .all',
+            //responsiveHeight : 768,
+            afterLoad: function(anchorLink, index){
+                $("#mainNav > li").removeClass("on")
+                $("#mainNav > li:nth-child("+(index)+")").addClass("on")
+                if(index == 1){
+                    $("body").removeClass("color")
+                }else{
+                    $("body").addClass("color")
+                }
+            },
+            'onLeave': function(index, nextIndex, direction){
+                if (index == 4 && direction == 'down'){
+                    $("#section3").addClass("fix");
+                    $("#header").addClass("hide");
+                }else{
+                    $("#section3").removeClass("fix");
+                    $("#header").removeClass("hide");
+                }
+            }
+            });
+            //$.fn.fullpage.setAllowScrolling(false);
+        });
+        var mainSliderProg = $('.mainProgress');
+        mainSliderProg.circleProgress({
+            startAngle: -Math.PI,
+            value: 0,
+            lineCap: 'butt',
+            fill: {color: '#fff'},
+            emptyFill : "rgba(255,255,255,.2)",
+            size: 70,
+            thickness:3
+        });
+        
+        $(window).load(function(){
+        mainSlider = new Swiper('.mainSlider', {
+            slidesPerView: 'auto',
+            effect: 'fade',
+            speed: 1000,
+            spaceBetween: 0,
+            freeMode: false,
+            loop: true,
+            loopFillGroupWithBlank: false,
+            centeredSlides: false,
+            autoplay: {
+             delay: 5000,
+             disableOnInteraction: false,
+            },
+            pagination: {
+             el: '.mainSlider-pagination',
+             clickable: true
+            },
+            navigation: {
+            nextEl: '.mainSlider-next',
+            prevEl: '.mainSlider-prev',
+            },
+            on: {
+                slideChange: function(){
+                var rIdx = this.realIndex+1;
+                var len = this.slides.length - this.loopedSlides*2;
+                var pEnd = 1/len*rIdx;
+                mainSliderProg.circleProgress('value', pEnd);
+                }
+            }
+        });
+        
+        prodSlider1 = new Swiper('.prodSlider1', {
+            slidesPerView: 'auto',
+            effect: 'slide',
+            speed: 1000,
+            spaceBetween: 0,
+            freeMode: false,
+            loop: true,
+            loopFillGroupWithBlank: false,
+            centeredSlides: false,
+            autoplay: {
+             delay: 5000,
+             disableOnInteraction: false,
+            },
+            pagination: {
+             el: '.prodSlider-pagination',
+             clickable: false
+            },
+            navigation: {
+            nextEl: '.prodSlider_wrap1 .prodSlider-next',
+            prevEl: '.prodSlider_wrap1 .prodSlider-prev',
+            },
+            on: {
+                slideChange: function(){
+        //		var rIdx = this.realIndex+1;
+        //		var len = this.slides.length - this.loopedSlides*2;
+        //		var pEnd = 1/len*rIdx;
+        //		mainSliderProg.circleProgress('value', pEnd);
+                }
+            }
+        });
+        prodSlider2 = new Swiper('.prodSlider2', {
+            slidesPerView: 'auto',
+            effect: 'slide',
+            speed: 1000,
+            spaceBetween: 0,
+            freeMode: false,
+            loop: true,
+            loopFillGroupWithBlank: false,
+            centeredSlides: false,
+            autoplay: {
+             delay: 5000,
+             disableOnInteraction: false,
+            },
+            pagination: {
+             el: '.prodSlider-pagination',
+             clickable: false
+            },
+            navigation: {
+            nextEl: '.prodSlider_wrap2 .prodSlider-next',
+            prevEl: '.prodSlider_wrap2 .prodSlider-prev',
+            },
+            on: {
+                slideChange: function(){
+        //		var rIdx = this.realIndex+1;
+        //		var len = this.slides.length - this.loopedSlides*2;
+        //		var pEnd = 1/len*rIdx;
+        //		mainSliderProg.circleProgress('value', pEnd);
+                }
+            }
+        });
+        prodSlider3 = new Swiper('.prodSlider3', {
+            slidesPerView: 'auto',
+            effect: 'slide',
+            speed: 1000,
+            spaceBetween: 0,
+            freeMode: false,
+            loop: true,
+            loopFillGroupWithBlank: false,
+            centeredSlides: false,
+            autoplay: {
+             delay: 5000,
+             disableOnInteraction: false,
+            },
+            pagination: {
+             el: '.prodSlider-pagination',
+             clickable: false
+            },
+            navigation: {
+            nextEl: '.prodSlider_wrap3 .prodSlider-next',
+            prevEl: '.prodSlider_wrap3 .prodSlider-prev',
+            },
+            on: {
+                slideChange: function(){
+        //		var rIdx = this.realIndex+1;
+        //		var len = this.slides.length - this.loopedSlides*2;
+        //		var pEnd = 1/len*rIdx;
+        //		mainSliderProg.circleProgress('value', pEnd);
+                }
+            }
+        });
+        
+        });
+        
+        function sliderPause(obj,slider){
+            $(obj).parents(".mainPauseWrap").addClass("pause");
+            $(obj).parents(".prodPauseWrap").addClass("pause");
+            slider.autoplay.stop();
+        }
+        function sliderPlay(obj,slider){
+            $(obj).parents(".mainPauseWrap").removeClass("pause");
+            $(obj).parents(".prodPauseWrap").removeClass("pause");
+            slider.autoplay.start();
+        }
+        function goFullpage(idx){
+            $.fn.fullpage.moveTo(idx)
+        }
+        
+        
+        
+        </script>
+
+
+</body>
+</html>

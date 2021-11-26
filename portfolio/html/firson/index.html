@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)퍼슨</title>
+    <link href="css/inc.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/font.css" rel="stylesheet" type="text/css" />
+    <link href="css/board.css" rel="stylesheet" type="text/css" />
+    <link href="css/style_response.css" rel="stylesheet" type="text/css" />
+    <link href="js/scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <link href="js/slick/slick.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/xeicon.min.css" rel="stylesheet" type="text/css" />
+    <link href="js/animated/animated.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="js/youtube/YouTubePopUp.css" />    
+    <script src="js/inc.js" type="text/javascript"></script>
+    <script src="js/placeholders.min.js" type="text/javascript" defer="defer"></script>
+    <script src="js/scrollbar/jquery.mCustomScrollbar.js" type="text/javascript" defer="defer"></script>
+    <script type="text/javascript" src="js/slick/slick.js"></script>
+    <script src="js/flex/jquery.flexslider.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/animated/jquery.waypoints.min.js"></script>
+    <script src="js/ui.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/youtube/YouTubePopUp.jquery.js" ></script>
+    <link rel="shortcut icon" href="images/inc/favicon.ico" />
+<!--깃플챗 봇 스크립트-->
+<script>
+    window.GitpleConfig = {"appCode":"48liq0BEBYfGo7VzSXF0RBuHkB3c93"};
+    !function(){function e(){function e(){var e=t.contentDocument,a=e.createElement("script");a.type="text/javascript",a.async=!0,a.src=window[n]&&window[n].url?window[n].url+"/inapp-web/gitple-loader.js":"https://app.gitple.io/inapp-web/gitple-loader.js",a.charset="UTF-8",e.head&&e.head.appendChild(a)}var t=document.getElementById(a);t||((t=document.createElement("iframe")).id=a,t.style.display="none",t.style.width="0",t.style.height="0",t.addEventListener?t.addEventListener("load",e,!1):t.attachEvent?t.attachEvent("onload",e):t.onload=e,document.body.appendChild(t))}var t=window,n="GitpleConfig",a="gitple-loader-frame";if(!window.Gitple){document;var i=function(){i.ex&&i.ex(arguments)};i.q=[],i.ex=function(e){i.processApi?i.processApi.apply(void 0,e):i.q&&i.q.push(e)},window.Gitple=i,t.attachEvent?t.attachEvent("onload",e):t.addEventListener("load",e,!1)}}();
+    Gitple('boot');
+  </script>
+  
+</head>
+<body class="main">
+    <!--header start-->
+    <div id="header" class="fWrap">
+        <span class="head_bg"></span>
+        <div class="box0 top_wrap headerH flex space vc">
+            <h1 class="logo"><a href="index.html"></a></h1>
+            <div class="gnb_wrap">
+                <div class="gnbBg headerT"></div>
+                <div class="menu">
+                    <!--gnb start-->
+                    <ul class="gnb di_wrap">
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">회사소개</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">기업소개</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">CEO인사말</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">회사연혁</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">CI자료실</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">윤리규범</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">본사/공장소개</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">지점안내</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">위치안내</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">제품소개</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">전문의약품</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">일반의약품</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">의약외품</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">의료기기</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">생활화학제품</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">건강기능식품</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">기타</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">연구개발</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">연구센터소개</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">혁신기술</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">연구실적</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">연구분야</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">브랜드사이트</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">스웨트롤</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">일상닥터</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">CDMO</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">Nano-Quell®</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">고객센터</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">보도자료</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">공지사항</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">홍보영상</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">1:1문의</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">약국찾기</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">제품 FAQ</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dp1 va_wrap"><span class="va">인재채용</span></a>
+                            <ul class="dp2 di_wrap">
+                                <li><a href="#" class="va_wrap"><span class="va">인사제도</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">복리후생</span></a></li>
+                                <li><a href="#" class="va_wrap"><span class="va">채용안내</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!--gnb end-->
+                </div>
+            </div>
+            <div class="etc_wrap flex vc">        	
+                <div class="lang_wrap">
+                    <div class="lang" onClick="alert('준비중입니다.')"><!--<span class="va"></span>--><p class="va_tt"><i class="xi xi-globus"></i><span class="tt">Korean</span></p></div>
+                    <ul class="lang_list" style="display: none;">
+                        <li><a href="#">Korean</a></li>
+                        <li><a href="javascript:void(0)">English</a></li>
+                    </ul>
+                </div>
+                <div class="all_wrap toggleWrap">
+                    <a href="javascript:void(0)" class="all_btn" onclick="toggleClass(this); toggleClass(this,'html,body','hidden');"><i class="ham"></i></a>
+                    <div class="all flex vc">
+                        <a href="javascript:void(0)" class="close_btn" onclick="toggleClass(this); toggleClass(this,'html,body','hidden');"><i class="xi xi-close-thin"></i></a>
+                        <div class="box1">
+                            <p class="all_logo"><img src="images/inc/logo.png" alt="" /></p>
+                            <!--gnb start-->
+                            <ul class="gnb di_wrap">
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">회사소개</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">기업소개</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">CEO인사말</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">회사연혁</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">CI자료실</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">윤리규범</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">본사/공장소개</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">지점안내</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">위치안내</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">제품소개</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">전문의약품</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">일반의약품</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">의약외품</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">의료기기</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">생활화학제품</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">건강기능식품</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">기타</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">연구개발</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">연구센터소개</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">혁신기술</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">연구실적</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">연구분야</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">브랜드사이트</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">스웨트롤</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">일상닥터</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">CDMO</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">Nano-Quell®</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">고객센터</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">보도자료</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">공지사항</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">홍보영상</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">1:1문의</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">약국찾기</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">제품 FAQ</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="dp1 va_wrap"><span class="va">인재채용</span></a>
+                                    <ul class="dp2 di_wrap">
+                                        <li><a href="#" class="va_wrap"><span class="va">인사제도</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">복리후생</span></a></li>
+                                        <li><a href="#" class="va_wrap"><span class="va">채용안내</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!--gnb end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header end-->
+    <script type="text/javascript">
+    function headerGnb(){
+        var gnb = $('#header .gnb_wrap .gnb')
+        var gnbDp1 = $('#header .gnb_wrap .gnb > li')
+        var gnbDp2 = $('#header .gnb_wrap .gnb .dp2')
+        var headerDp1 = $('#header .gnb_wrap .gnb li.on')
+        headerDp1.addClass("on")
+        gnbDp1.mouseenter(function(){
+            gnbDp2.hide();
+            $(this).children(".dp2").fadeIn(200);
+        });
+        gnbDp1.mouseleave(function(){
+            gnbDp2.hide();
+        });
+        gnb.mouseenter(function(){
+            $("#header .gnbBg, #header .top_wrap .dp2").equalizeHeights();
+            $("#header .gnbBg").slideDown(200);
+        });
+        gnb.mouseleave(function(){
+            $("#header .gnbBg").hide();
+        });	
+    };
+    </script>
+    <!--contents start-->
+    <div id="contents">
+        <div class="main_visual_wrap">
+            <div class="main_visual"> 
+                <div class="visual">
+                    <div class="el"><p class="bg" style="background-image:url(images/main/visual1.jpg);"></p></div>
+                    <div class="el"><p class="bg" style="background-image:url(images/main/visual2.jpg);"></p></div>
+                    <div class="el"><p class="bg" style="background-image:url(images/main/visual3.jpg);"></p></div>
+                </div>	
+                <div class="dot_wrap"></div>				
+            </div>
+            <div class="slogan">
+                <div class="box1">
+                    <p class="t1">ALWAYS BY YOUR SIDE</p>
+                    <p class="t2"><span class="strong">언제 어디서나</span> 늘, <span class="strong">당신과 함께</span>하는 퍼슨</p>
+                    <p class="line"></p>
+                    <p class="t3">Since 1957</p>
+                </div>
+            </div>
+            <div class="visual_con flex">			
+                <ul class="control_box flex">
+                    <li class="prev flex ac"><p class="in en"><i class="xi xi-angle-left"></i><i class="tt">Prev</i></p></li>
+                    <li class="next flex ac"><p class="in en"><i class="tt">Next</i><i class="xi xi-angle-right"></i></p></li>
+                </ul>
+                <div class="notice flex space vc"><!--공지사항 시작-->
+                    <div class="customer_w">
+                        <div class="customer_slide">
+                            <label class="tt"  onClick="location.href='<?=$link_customer_board?>'"><span class="en">Notice</span><i class="xi xi-plus-circle"></i></label>
+                            <ul class="slides">
+                                <li class="on">
+                                    <p class="notice_tit"><i class="xi xi-volume-up"></i>타이틀이 들어갑니다.</p>
+                                    <span class="notice_date">2021.00.00</span>
+                                </li>
+                                <li>
+                                    <p class="notice_tit"><i class="xi xi-volume-up"></i>타이틀이 들어갑니다.</p>
+                                    <span class="notice_date">2021.00.00</span>
+                                </li>
+                            </ul>
+                            <script type="text/javascript">
+                                //$(window).load(function(){
+                                    $('.customer_slide').flexslider({
+                                        animation: "slide",
+                                        directionNav: true,
+                                        controlNav: false,
+                                        pausePlay: false,
+                                        direction: "vertical",
+                                        slideshowSpeed: 3500,
+                                        animationSpeed: 500,
+                                        easing : "easeInCubic"
+                                        //slideshowSpeed: 50000,
+                                        //animationSpeed: 500
+                                    });
+                                //})
+                            </script>
+                        </div>
+                    </div>
+                </div>			
+            </div>
+        </div>
+        <div class="main_con_bg">
+            <div class="main_con main_sec1"><!--브랜드소개 시작--> 
+                <div class="box1">
+                    <div class="con_in">
+                        <div class="main_tit"><p class="t1 en">Brand story</p><p class="t2">브랜드 소개</p><p class="line"></p></div>
+                        <!--탭시작-->
+                        <div class="wrap_idx flex">
+                            <ul class="main_tab tab_idx click">
+                                <li class="on"><a href="javascript:void(0)"><span class="tt">스웨트롤</span><span class="xi xi-arrow-right"></span></a></a></li>
+                                <li><a href="javascript:void(0)"><span class="tt">일상닥터</span><span class="xi xi-arrow-right"></span></a></li>
+                                <li><a href="javascript:void(0)"><span class="tt">CDMO</span><span class="xi xi-arrow-right"></span></a></li>
+                                <li><a href="javascript:void(0)"><span class="tt">Nano-Quell®</span><span class="xi xi-arrow-right"></span></a></li>
+                            </ul>
+                            <div class="con_idx mgL brandImg">
+                                <div class="idx on"><!--이미지 최적 사이즈 840 x 522 -->
+                                    <div class="in">
+                                        <p class="img"><img src="images/main/con1_img1.jpg"></p>
+                                        <div class="brand_box">
+                                            <ul class="flex space">
+                                                <li><p class="tt">스웨트롤</p><p class="tx">바르는 얼굴 땀 컨트롤, 스웨트롤 패드액</p></li>
+                                                <li>
+                                                    <div class="linkIcon">
+                                                        <a href="#" class="xi xi-external-link icon4"></a>
+                                                        <a href="#" target="_blank" class="xi xi-home icon1 c1"></a>
+                                                        <a href="#" target="_blank" class="xi xi-naver-square icon2"></a>
+                                                        <a href="#" target="_blank" class="xi xi-instagram icon3"></a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="idx"><!--이미지 최적 사이즈 840 x 522 -->
+                                    <div class="in">
+                                        <p class="img"><img src="images/main/con1_img2.jpg"></p>
+                                        <div class="brand_box">
+                                            <ul class="flex space">
+                                                <li><p class="tt">일상닥터</p><p class="tx">60년 이상 전통의 퍼슨제약의 건강생활브랜드</p></li>
+                                                <li>
+                                                    <div class="linkIcon">
+                                                        <a href="#" class="xi xi-external-link icon4"></a>
+                                                        <a href="#" target="_blank" class="xi xi-home icon1 c1"></a>
+                                                        <a href="#" target="_blank" class="xi xi-naver-square icon2"></a>
+                                                        <a href="#" target="_blank" class="xi xi-instagram icon3"></a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="idx"><!--이미지 최적 사이즈 840 x 522 -->
+                                    <div class="in">
+                                        <p class="img"><img src="images/main/con1_img3.jpg"></p>
+                                        <div class="brand_box">
+                                            <ul class="flex space">
+                                                <li><p class="tt">CDMO</p><p class="tx">국내외적으로 우수한 품질의 의약품 공급 및 생산</p></li>
+                                                <li>
+                                                    <div class="linkIcon">
+                                                        <a href="#" class="xi xi-external-link icon4"></a>
+                                                        <a href="#" target="_blank" class="xi xi-home icon1 c1"></a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="idx"><!--이미지 최적 사이즈 840 x 522 -->
+                                    <div class="in">
+                                        <p class="img"><img src="images/main/con1_img4.jpg"></p>
+                                        <div class="brand_box">
+                                            <ul class="flex space">
+                                                <li><p class="tt">Nano-Quell®</p><p class="tx">멸균 및 소독을 위한 최고의 선택 Nano-Quell®</p></li>
+                                                <li>
+                                                    <div class="linkIcon">
+                                                        <a href="#" class="xi xi-external-link icon4"></a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--con_idx end-->
+                        </div><!--wrap_idx end-->
+                    </div>
+                </div>
+            </div><!--브랜드소개 끝--> 
+            <div class="main_con main_sec2"><!--제품소개 시작--> 
+                <div class="box1 flex space">
+                    <div class="con_in">
+                        <div class="main_tit"><p class="t1 en">Best Products</p><p class="t2">제품소개</p><p class="t3">믿을 수 있는 제품, <span class="p_c1 strong">퍼슨</span>이 만들면 다릅니다.</p></div>
+                        <!--제품슬라이드시작-->
+                        <div class="main_prod_slide">
+                            <ul class="slides di_wrap">
+                                <li>
+                                    <a href="#">
+                                        <div class="resize s3">
+                                            <div class="re vm_wrap"><span class="vm_tt"></span><img src="images/main/prod1.jpg"></div>
+                                            <p class="layer vm_wrap"><i class="xi vm_tt"></i></p>
+                                        </div>
+                                        <div class="con_wrap">
+                                            <i class="tit NS">타이틀1</i>
+                                            <i class="t1">타이틀2</i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="resize s3">
+                                            <div class="re vm_wrap"><span class="vm_tt"></span><img src="images/main/prod2.jpg"></div>
+                                            <p class="layer vm_wrap"><i class="xi vm_tt"></i></p>
+                                        </div>
+                                        <div class="con_wrap">
+                                            <i class="tit NS">타이틀1</i>
+                                            <i class="t1">타이틀2</i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="resize s3">
+                                            <div class="re vm_wrap"><span class="vm_tt"></span><img src="images/main/prod3.jpg"></div>
+                                            <p class="layer vm_wrap"><i class="xi vm_tt"></i></p>
+                                        </div>
+                                        <div class="con_wrap">
+                                            <i class="tit NS">타이틀1</i>
+                                            <i class="t1">타이틀2</i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="resize s3">
+                                            <div class="re vm_wrap"><span class="vm_tt"></span><img src="images/main/prod4.jpg"></div>
+                                            <p class="layer vm_wrap"><i class="xi vm_tt"></i></p>
+                                        </div>
+                                        <div class="con_wrap">
+                                            <i class="tit NS">타이틀1</i>
+                                            <i class="t1">타이틀2</i>
+                                        </div>
+                                    </a>
+                                </li>                                
+                            </ul>
+                        </div>   
+                    </div><!--제품소개 끝-->
+                    <div class="con_in main_search_wrap">
+                        <div class="main_tit"><p class="t1 en">Search</p><p class="t2">검색</p><p class="t3">제품 및 약국검색을 이용하실 수 있습니다.</p></div>
+                        <ul class="prod_search_con">
+                            <li>
+                                <div class="inp_wrap st2">
+                                    <div class="inp_con">
+                                        <div class="inp_con_w1">
+                                            <span class="tit">제품검색</span>
+                                            <input class="inp" type="text" msg="제품명을" placeholder="제품명을 입력해주세요." name="maincate"><button class="inp btn" type="submit"><i class="xi xi-search"></i></button>
+                                        </div>
+                                        <div class="check">
+                                            <label class="label_st mg"><input type="radio" name="main_search" value="제품명" checked><i class="xi"></i> <span>제품내 검색</span></label>
+                                            <label class="label_st mg"><input type="radio" name="main_search" value="성분"><i class="xi"></i> <span>성분 검색</span></label>
+                                            <label class="label_st mg"><input type="radio" name="main_search" value="효능"><i class="xi"></i> <span>효능/효과 검색</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inp_wrap st2">
+                                    <div class="inp_con">
+                                        <div class="inp_con_w2">
+                                            <span class="tit">약국검색</span>
+                                            <input class="inp" type="text" msg="제품명을" placeholder="제품명을 입력해주세요.">
+                                        </div>
+                                    </div>
+                                    <ul class="inp_con flex space">
+                                        <li>
+                                        <label class="inp label_select">
+                                            <select class="input_st s1 w4">
+                                                <option value="특별/광역시/도 선택">특별/광역시/도 선택</option>
+                                            </select>
+                                        </label>
+                                        </li>
+                                        <li>
+                                            <label class="inp label_select">
+                                                <select class="input_st s1 w4" name="sido" onchange="addrAjax(this.value);">
+                                                    <option value="시/군/구 선택">시/군/구 선택</option>
+                                                </select>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="inp_con page_sec1">
+                                        <div class="inp_con_w1">
+                                            <span class="tit">지역명</span>
+                                            <input class="inp" type="text" msg="" placeholder="지역명을 입력해주세요." value=""><button class="inp btn" type="submit"><i class="xi xi-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>         
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main_con main_sec3">
+                <div class="box1 flex space">
+                    <div class="con_in">
+                        <div class="main_tit"><p class="t1 en">Firson Notice</p><p class="t2">보도자료</p><p class="t3"><span class="p_c1 strong">퍼슨</span>에서 전하는 다양한 소식과 이야기를 만나보세요.</p></div>
+                        <ul class="main_news">
+                            <li>
+                                <a href="#">
+                                    <dl class="flex">
+                                        <dt>
+                                            <div class="in resize s5"><p class="re img" style="background-image:url(images/inc/no_img.jpg);"></p></div>
+                                        </dt>
+                                        <dd>
+                                            <span class="tit">타이틀이 들어갑니다. 타이틀이 들어갑니다.</span>
+                                            <span class="date">2021.00.00</span>
+                                            <span class="more xi xi-plus-thin"></span>
+                                        </dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="tit">타이틀이 들어갑니다.</span>
+                                    <span class="date">2021.00.00</span>
+                                    <span class="more xi xi-plus-thin"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="tit">타이틀이 들어갑니다.</span>
+                                    <span class="date">2021.00.00</span>
+                                    <span class="more xi xi-plus-thin"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="tit">타이틀이 들어갑니다.</span>
+                                    <span class="date">2021.00.00</span>
+                                    <span class="more xi xi-plus-thin"></span>
+                                </a>
+                            </li>
+                        </ul>        
+                    </div><!--보도자료 게시판 끝-->
+                    <div class="con_in main_video_wrap">
+                        <div class="main_tit"><p class="t1 en">PR VIDEO</p><p class="t2">홍보영상</p><p class="t3"><span class="p_c1 strong">퍼슨</span>홍보영상을 보실 수 있습니다.</p></div>
+                        <div class="mov_wrap main_vid_wrap">
+                            <div class="in_vid">
+                                <a class="bla-1 cover" data="" href="https://www.youtube.com/watch?v=aA9mVT3kQIM"><span class="img resize" style="background-image:url(images/main/mov_bg.jpg); background-repeat:no-repeat;"></span>
+                                    <span class="play_btn vm_wrap"><i class="vm_tt xi xi-youtube-play"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                        <script type="text/javascript">
+                            jQuery(function(){
+                            jQuery(".bla-1").YouTubePopUp();
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="main_con main_sec4">
+                <div class="box1 flex space">
+                    <div class="con_in">
+                        <div class="main_tit"><p class="t1 en">Firson Recruit</p><p class="t2">인재채용</p><p class="t3">사람 중심의 경영으로 더 나은 내일을 만들겠습니다.</p><p class="line"></p></div>
+                        <ul class="main_recboard">
+                            <li>
+                                <a href="#">
+                                    <span class="tit">타이틀이 들어갑니다. 타이틀이 들어갑니다.</span>
+                                    <span class="date">2021.00.00</span>
+                                    <span class="more xi xi-plus-thin"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="tit">타이틀이 들어갑니다. 타이틀이 들어갑니다.</span>
+                                    <span class="date">2021.00.00</span>
+                                    <span class="more xi xi-plus-thin"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="con_in main_rec_wrap">
+                        <ul class="flex wrap">
+                            <li>
+                                <a class="in" href="#">
+                                    <p class="t1 c1">인사제도</p>
+                                    <i class="xi xi-user-plus-o c1"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="in" href="#">
+                                    <p class="t1 c1">채용정보</p>
+                                    <i class="xi xi-lightbulb-o c1"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="in" href="#">
+                                    <p class="t1">복리후생</p>
+                                    <i class="xi xi-spa"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="in" href="#"><!--채용정보 가장 최신글로 링크 넘어가게-->
+                                    <p class="t1">입사지원</p>
+                                    <i class="xi xi-document"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contents end-->
+    <script type="text/javascript">
+        $(window).load(function(){
+            $("body").addClass("load");        
+        })
+        $(window).scroll(function(){
+        var scrollY = $(window).scrollTop()
+        if(scrollY > 0){
+            $("body").addClass("scroll")
+        }else{
+            $("body").removeClass("scroll")
+        }
+        })  
+         UI.Slider.mainVisual();        
+    </script>
+    <!--footer start-->
+    <div id="footer">
+        <a href="javascript:goTop();" class="goTop flex ac"><span><i class="xi xi-angle-up-thin"></i><i class="tt en">TOP</i></span></a>
+        <div class="box0">
+            <div class="inner flex wrap">
+                <div class="logo"><img src="images/inc/logo_w.svg" alt=""></div>
+                <div class="con">
+                    <div class="menu_wrap flex wrap space">
+                        <ul class="menu flex vc">
+                            <li><a href="#" class="in"><span class="tt">회사소개</span></a></li>
+                            <li><a href="#" class="in point"><span class="tt">개인정보처리방침</span></a></li>
+                            <li><a href="#" class="in"><span class="tt">고객센터</span></a></li>
+                            <li><a href="#" class="in"><span class="tt">찾아오시는길</span></a></li>
+                            <li class="foot_head_in"><i class="xi xi-time-o"></i><i class="tit">운영시간.</i><span class="c2">08:00~17:00 (점심시간:12:00~13:30)</span></li>
+                        </ul>
+                        <div class="family_wrap toggleWrap">
+                            <a href="javascript:void(0)" title="Family Site 열기" class="family_btn en flex ac" onclick="toggleClass(this)"><span class="va"><i class="tt">FAMILY SITE</i><i class="xi icon"></i></span></a>
+                            <div class="list_wrap scrollst">
+                            <ul class="family">
+                                <li><a href="#" target="_blank" class="in"><span class="va"><i class="tt">스웨트롤</i></span></a></li>
+                                <li><a href="#" target="_blank" class="in"><span class="va"><i class="tt">일상닥터</i></span></a></li>
+                                <li><a href="#" target="_blank" class="in"><span class="va"><i class="tt">크린바이오텍(주)</i></span></a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info_wrap">
+                        <ul class="info flex wrap">						
+                            <li><span class="tt">(주)퍼슨</span></li>
+                            <li><span class="tt">대표 : 김동진</span></li>
+                            <li><span class="tt">주소 : 충청남도 천안시 서북구 백석공단1로 47</span></li>
+                            <li><span class="tt">사업자등록번호 : 130-81-68218</span></li>
+                        </ul>
+                        <ul class="info flex wrap">
+                            <li><span class="tt">대표번호 : </span> <a class="tt">1833-8200</a></li>
+                            <li><span class="tt">Fax : </span> <a class="tt"> 041-566-8321</a></li>
+                            <li><span class="tt">E-mail : </span> <a href="javascript:void(0)" class="tt">firson@firson.co.kr</a></li>						
+                        </ul>
+                        <p class="copy en">COPYRIGHT(c) ) FIRSON CO., LTD. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer end-->
+</body>
+</html>
